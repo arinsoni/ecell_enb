@@ -158,7 +158,7 @@ body {
 	}
 } 
 
- @media (max-width: 708px) {
+ @media (max-width: 508px) {
 	.cards_wrap .box {
 		width: 100%;
 		height:33%;
