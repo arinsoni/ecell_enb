@@ -15,9 +15,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/landing.css">
 
   <title>Hello, world!</title>
 </head>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
 
 <body>
 
@@ -50,54 +56,73 @@
       </div>
     </div>
   </nav>
-  <div class="full-width-image">
-    <img
-      src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-      alt="">
-  </div>
-  <!-- About Us -->
-  <h1 class="text-center aboutus_heading text-uppercase">About US</h1>
-  <p class="aboutus_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis et harum nisi sit
-    odio ratione delectus ullam
-    dignissimos illum, fugit quo voluptatem voluptas sint? Ut nemo magnam quaerat expedita.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequuntur facere nemo placeat reiciendis
-    modi nulla ab veniam sint, aliquid, totam fugit voluptates commodi possimus explicabo harum minima! Itaque, quasi?
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi veniam ipsum dolorum amet consequuntur eveniet
-    rerum nemo explicabo? Ullam, illo aspernatur. In, dignissimos quas eaque minima doloribus adipisci delectus
-    corrupti.z
-  </p>
-
-  <!-- sliding Images -->
-  <div class="slideshowContainer">
-
-
-    <img class="imageSlides"
-      src="https://images.unsplash.com/photo-1505929849118-b2d69eeecbcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-      alt="beach side city view">
-    <img class="imageSlides"
-      src="http://4.bp.blogspot.com/-oxlezteeOII/TfiTImj4RlI/AAAAAAAAA1k/UAgctmU5VZo/s1600/Widescreen+Unique+And+Beautiful+Photography+%25284%2529.jpg"
-      alt="leaf on the ground">
-    <img class="imageSlides" src="https://i.pinimg.com/originals/cf/ed/a0/cfeda03d01da4b779093c9d928c01dee.jpg"
-      alt="lake surrounded by mountains">
-
-
-    <span id="leftArrow" class="slideshowArrow">&#8249;</span>
-    <span id="rightArrow" class="slideshowArrow">&#8250;</span>
-
-    <div class="slideshowCircles">
-
-      <span class="circle dot"></span>
-      <span class="circle"></span>
-      <span class="circle"></span>
+  <!-- Landingimage -->
+  <div class="splash">
+    <div class="splash_logo">
+      E-Cell
     </div>
-
+    <div class="splash_svg">
+      <svg width="100%" height="100%">
+        <rect width="100%" height="100%">
+      </svg>
+    </div>
+    <div class="splash_minimize">
+      <svg width="100%" height="100%">
+        <rect width="100%" height="100%">
+      </svg>
+    </div>
   </div>
-  <br>
+  <div class="text">
+    <p>EnB Club</p>
+    <p>IIT Bombay</p>
+    <button onClick="document.getElementById('home_content').scrollIntoView();" >About</button>
+  </div>
+  <!-- Landingimage end -->
+  <!-- About Us -->
+  <div id="home_content">
+    <h1 class="text-center aboutus_heading text-uppercase">About US</h1>
+    <p class="aboutus_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis et harum nisi sit
+      odio ratione delectus ullam
+      dignissimos illum, fugit quo voluptatem voluptas sint? Ut nemo magnam quaerat expedita.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequuntur facere nemo placeat reiciendis
+      modi nulla ab veniam sint, aliquid, totam fugit voluptates commodi possimus explicabo harum minima! Itaque, quasi?
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi veniam ipsum dolorum amet consequuntur eveniet
+      rerum nemo explicabo? Ullam, illo aspernatur. In, dignissimos quas eaque minima doloribus adipisci delectus
+      corrupti.z
+    </p>
 
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
+    <!-- sliding Images -->
+    <div class="slideshowContainer">
+
+
+      <img class="imageSlides"
+        src="https://images.unsplash.com/photo-1505929849118-b2d69eeecbcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+        alt="beach side city view">
+      <img class="imageSlides"
+        src="http://4.bp.blogspot.com/-oxlezteeOII/TfiTImj4RlI/AAAAAAAAA1k/UAgctmU5VZo/s1600/Widescreen+Unique+And+Beautiful+Photography+%25284%2529.jpg"
+        alt="leaf on the ground">
+      <img class="imageSlides" src="https://i.pinimg.com/originals/cf/ed/a0/cfeda03d01da4b779093c9d928c01dee.jpg"
+        alt="lake surrounded by mountains">
+
+
+      <span id="leftArrow" class="slideshowArrow">&#8249;</span>
+      <span id="rightArrow" class="slideshowArrow">&#8250;</span>
+
+      <div class="slideshowCircles">
+
+        <span class="circle dot"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+      </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
   </div>
 
 
@@ -113,7 +138,19 @@
   <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
   <script src="js/home.js"></script>
-  
+  <script>
+    $(function () {
+      $("#upBtn").click(function () {
+        $('#textBody').scrollTop($('#textBody').scrollTop() - 20);
+      });
+
+      $("#downBtn").click(function () {
+        $('#textBody').scrollTop($('#textBody').scrollTop() + 20);;
+      });
+
+    });
+  </script>
+
 </body>
 
 </html>
