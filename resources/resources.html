@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../nav.css">
+  <link rel="stylesheet" href="resources_style.css">
+  <link rel="stylesheet" href="cardstyle.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- AOS END -->
+
+  <title>Hello, world!</title>
+</head>
+<style>
+  
+  .resources_cards .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.resources_cards .icon-box::before {
+  content: '';
+  position: absolute;
+  background: #cbe0fb;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.resources_cards .icon-box:hover::before {
+  background: #106eea;
+  top: 0;
+  border-radius: 0px;
+}
+
+.resources_cards .icon {
+  margin-bottom: 15px;
+}
+
+.resources_cards .icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: #106eea;
+  transition: all 0.3s ease-in-out;
+}
+
+.resources_cards .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.resources_cards .title a {
+  color: #111;
+}
+
+.resources_cards .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.resources_cards .icon-box:hover .title a, .resources_cards .icon-box:hover .description {
+  color: #fff;
+}
+
+.resources_cards .icon-box:hover .icon i {
+  color: #fff;
+}
+
+</style>
+
+<body>
+
+  <nav class="navbar sticky-top navbar-expand-lg ">
+    <div class="container ">
+      <!-- LOGO -->
+      <a class="enb_logo" href="index.html"><img class="img-fluid" src="../assets/enb-logo 1.png" alt=""></a>
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link " href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../initiatives.html">INITIATIVES</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../startups/startups.html">OUR STARTUPS</a>
+          <li class="nav-item">
+            <a class="nav-link current" href="resources/resources.html">RESOURCES</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR end -->
+  <!-- LANDING IMAGE -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Welcome to <span>EnB Resources</span></h1>
+      <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, debitis?</h2>
+      <div class="d-flex">
+        <a href="#resources_cards" class="btn-get-started scrollto">Get Started</a>
+        <a href="#" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+      </div>
+    </div>
+  </section>
+  <!-- LANDING IMAGE END -->
+
+  <!-- CARDS -->
+  <section id="resources_cards" class="resources_cards">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <main class="page-content">
+          <div class="row row-margin-10">
+            <div class="card">
+              <div class="content">
+                <h2 class="title">ENSPACE</h2>
+                <p class="copy">Plan your next beach trip with these fabulous destinations</p>
+                <a href="https://www.ecell.in/enspace/" target="_blank"> <button class="btn">View Trips</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <h2 class="title">SSP</h2>
+                <p class="copy">It's the desert you've always dreamed of</p>
+                <a href="https://www.ecell.in/ssp/" target="_blank"> <button class="btn">Book Now</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <h2 class="title">Government Scheme</h2>
+                <p class="copy">Seriously, straight up, just blast off into outer space today</p>
+                <a href="layout.html" target="_blank"><button class="btn">Book Now</button></a>
+              </div>
+            </div>
+        </main>
+      </div>
+    </div>
+  </section>
+  <!-- CARDS END -->
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <!-- AOS  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true,
+    })
+  </script>
+  <!-- AOS END -->
+</body>
+
+</html>

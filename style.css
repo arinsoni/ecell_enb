@@ -27,6 +27,9 @@ body {
 	margin-left: 10px;
 	color: white;
 }
+.navbar{
+	background-color: black;
+}
 
 .navbar-nav li a:hover, .navbar-nav li a.current {
 	color: lightcoral

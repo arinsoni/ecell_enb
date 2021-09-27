@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="initial-scale=1.0" />
+  <title>Startup Portal</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link href="startups.css" rel="stylesheet" />
+  <link href="body.css" rel="stylesheet" /> 
+   <link rel="stylesheet" href="../style.css"> 
+</head>
+
+<body id="body">
+  <!-- Nav-Bar -->
+
+
+  <nav class="navbar sticky-top navbar-expand-lg ">
+    <div class="container ">
+      <!-- ENB LOGO -->
+      <a class="enb_logo" href="index.html"><img class="img-fluid" src="../assets/enb-logo 1.png" alt=""></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link " href="../index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../initiatives.html">INITIATIVES</a>
+          <li class="nav-item">
+            <a class="nav-link current" href="startups/startup_home.html">OUR STARTUPS</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../resources/resources.html">RESOURCES</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="row" id="cards" style="padding: 20px;"></div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-keyboard="true" tabindex="-1" aria-labelledby="startup-name-1"
+    aria-hidden="true">
+    <div class="
+          modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered
+        ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="startup-name-1">Startup Name</h5>
+        </div>
+        <div class="modal-body text-center">
+          <h5 class="card-title" id="startup-name-2">Startup Name</h5>
+          <h6 class="mb-2 text-muted" id="founder">Founder: Founder Name</h6>
+          <p class="w-75 m-auto" id="description">
+            EACAD is the premier ed-tech, training and skill development
+            organization started with a vision to bring world-class, most
+            innovative training content for aspirants of competitive exams
+            like UPSC, MPSC, SSC, State Board Exams, Railways, GATE, JEE,
+            NEET, NDA, CET, OLYMPIAD, etc. to everyone's doorsteps. OUR MOTO -
+            SMARTER INDIA VISION: TO CREATE SMARTER INDIA. At EACAD, we are
+            trying to build our content smarter at more affordable rates than
+            anyone in the market. MISSION: 1. To innovate and bring the best
+            content to our students by way of Animations, Simulations and best
+            visual effects to learn and remember things for a longer time. 2.
+            To make learning enjoyable. 3. To build students' basics knowledge
+            strong at a tender age so that they will stand out from the
+            regular crowd. 4. To teach the basics of Coding, Animations,
+            Simulations to the inquisitive students so that they will excel in
+            their future endeavour 5. To provide Free UPSC and GATE content to
+            best and needy 20 students each year. 6.To reach out to every
+            needy student at a very affordable rate.
+          </p>
+          <div class="card-footer mt-2" id="stage">Stage: Established</div>
+          <div class="card-footer" id="sector">Sector: Ed-Tech</div>
+          <div class="card-footer">
+            Social Media: &ensp;
+            <a href="" target="_blank" class="fa fa-facebook" id="link"></a>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="startups.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

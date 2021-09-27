@@ -1,0 +1,27 @@
+
+.enb_logo img {
+	height: 5vw;
+	width: 10vw;
+}
+
+.navbar .nav-link {
+	font-size: 20px;
+	margin-left: 10px;
+	color: white;
+}
+.navbar{
+	background-color: black;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a.current {
+	color: lightcoral
+}
+
+.fa-bars {
+	color: white;
+	font-size: 30px;
+}
+
+.navbar-toggler i:hover {
+	color: lightcoral;
+}
