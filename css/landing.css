@@ -101,13 +101,15 @@
   bottom          : -5px;
   width           : 50px;
   height          : 1px;
-  background-color: #757474;
+  background-color: white;
+  color:white;
   content         : "";
 }
 
 .splash_logo:after {
   display         : block;
   position        : absolute;
+  color: beige;
   left            : 15px;
   top             : -5px;
   width           : 50px;
