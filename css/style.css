@@ -2,7 +2,7 @@
 	font-family: poppins;
 }
 
-body {
+#home_content {
 	background-color: lightcyan;
 }
 
@@ -19,7 +19,7 @@ body {
 
 /* Landing image */
 
-.full-width-image {
+/* .full-width-image {
 	width: 100vw;
 	position: relative;
 	
@@ -30,6 +30,9 @@ body {
 .full-width-image img {
 	width: 100%;
 }
+ */
+
+ 
 
 /* About US */
 
@@ -47,6 +50,7 @@ body {
 
 .slideshowContainer {
 	position: relative;
+	z-index: 1000;
 	overflow: hidden;
 	margin: 50px 0 75px;
 	width: 100%;
