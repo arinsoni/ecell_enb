@@ -112,7 +112,7 @@
   top             : -5px;
   width           : 50px;
   height          : 1px;
-  background-color: #757474;
+  background-color: white;
   content         : "";
   will-change     : width;
 }
