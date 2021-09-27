@@ -22,6 +22,7 @@ body {
 .full-width-image {
 	width: 100vw;
 	position: relative;
+	
 	left: 50%;
 	margin-left: -50vw;
 }
@@ -117,10 +118,12 @@ body {
 	border: solid 2px rgba(255, 255, 255, 0.5);
 }
 
-/* INITIATIVES */
+/* INITIATIVES --------------------------------------------------------------------------*/
 
 /* CARDS */
-
+.wrapper{
+	padding-top:100px ;
+}
 .cards_wrap {
 	display: flex;
 	flex-wrap: wrap;
