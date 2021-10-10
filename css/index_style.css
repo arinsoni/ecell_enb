@@ -3,9 +3,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
 /* Override UGG site */
-body{
+body {
   height: 10000px !important;
 }
+
 #main {
   width  : 100%;
   padding: 0;
@@ -141,7 +142,7 @@ body{
   overflow               : hidden;
   position               : relative;
   width                  : 100%;
-  background-image       : url(https://images.unsplash.com/photo-1415018255745-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=);
+  background-image       : url('https://images.unsplash.com/photo-1633807283085-c6ae888a23f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=411&q=80');
   background-attachment  : fixed;
   background-size        : cover;
   -moz-background-size   : cover;
@@ -156,7 +157,7 @@ body{
   overflow               : hidden;
   position               : relative;
   width                  : 100%;
-  background-image       : url(https://images.unsplash.com/photo-1432163230927-a32e4fd5a326?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-image       : url('https://images.unsplash.com/photo-1633797694830-138fc0df9ade?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80');
   background-attachment  : fixed;
   background-size        : cover;
   -moz-background-size   : cover;
@@ -171,7 +172,7 @@ body{
   overflow               : hidden;
   position               : relative;
   width                  : 100%;
-  background-image       : url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=);
+  background-image       : url('https://images.unsplash.com/photo-1633876719841-4276b4c24386?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2069&q=80');
   background-attachment  : fixed;
   background-size        : cover;
   -moz-background-size   : cover;
@@ -328,282 +329,322 @@ body{
 
 /* Slider */
 
-.mySlides{
+.mySlides {
   display: none;
 }
 
 /* Sections */
 
-#hero1{
-background:url(https://images.pexels.com/photos/1142948/pexels-photo-1142948.jpeg?cs=srgb&dl=beach-cave-island-1142948.jpg&fm=jpg);
-background-size: cover;
-background-position:center center;
-background-attachment:fixed;
-}
-#hero2{background: url(https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?cs=srgb&dl=boat-exotic-freedom-1371360.jpg&fm=jpg);
-background-size:cover;
-background-position:center center;
-background-attachment:fixed;
-}
-#hero3{background: url(https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?cs=srgb&dl=adventure-bay-beach-307008.jpg&fm=jpg);
-background-size:cover;
-background-position:center center;
-background-attachment:fixed;
+#hero1 {
+  background           : url(https://images.pexels.com/photos/1142948/pexels-photo-1142948.jpeg?cs=srgb&dl=beach-cave-island-1142948.jpg&fm=jpg);
+  background-size      : cover;
+  background-position  : center center;
+  background-attachment: fixed;
 }
 
-.hero, .content{
-position:relative;
-width: 100%;
+#hero2 {
+  background           : url(https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?cs=srgb&dl=boat-exotic-freedom-1371360.jpg&fm=jpg);
+  background-size      : cover;
+  background-position  : center center;
+  background-attachment: fixed;
 }
 
-.inner{
-margin: 0 auto;
-min-height: 600px;
-display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
-align-items: center;
-justify-content: left;
-
+#hero3 {
+  background           : url(https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?cs=srgb&dl=adventure-bay-beach-307008.jpg&fm=jpg);
+  background-size      : cover;
+  background-position  : center center;
+  background-attachment: fixed;
 }
 
-
-.copy.slide-tekst{
-margin: 0;
-background-image: url(http://sola-elektro.no/wp-content/uploads/2019/02/Reklame-grøn-bg.png);
-background-position: right;
-height: 200px;
-width: 800px;
+.hero,
+.content {
+  position: relative;
+  width   : 100%;
 }
 
-.copyLogo.slide-tekst{
-margin: 0px 0px 0px 200px;
-height: 200px;
-width: 800px;
-}
+.inner {
+  margin         : 0 auto;
+  min-height     : 600px;
+  display        : -webkit-box;
+  display        : -moz-box;
+  display        : -ms-flexbox;
+  display        : -webkit-flex;
+  display        : flex;
+  align-items    : center;
+  justify-content: left;
 
-@media only screen and (max-width: 750px) {
-.inner{
-  justify-content: center !important;
-}
 }
 
 
-@media only screen and (max-width: 750px) {
-.copy h2{
-  margin: 50px 0px 0px 50px !important
+.copy.slide-tekst {
+  margin             : 0;
+  background-image   : url(http://sola-elektro.no/wp-content/uploads/2019/02/Reklame-grøn-bg.png);
+  background-position: right;
+  height             : 200px;
+  width              : 800px;
 }
+
+.copyLogo.slide-tekst {
+  margin: 0px 0px 0px 200px;
+  height: 200px;
+  width : 800px;
 }
 
 @media only screen and (max-width: 750px) {
-.copy a{
-  margin: 0px 0px 0px 50px !important;
+  .inner {
+    justify-content: center !important;
+  }
 }
+
+
+@media only screen and (max-width: 750px) {
+  .copy h2 {
+    margin: 50px 0px 0px 50px !important
+  }
 }
 
 @media only screen and (max-width: 750px) {
-.copyLogo.slide-tekst{
-  margin: 0px 0px 0px 50px !important;
+  .copy a {
+    margin: 0px 0px 0px 50px !important;
+  }
 }
+
+@media only screen and (max-width: 750px) {
+  .copyLogo.slide-tekst {
+    margin: 0px 0px 0px 50px !important;
+  }
 }
 
 @media only screen and (max-width: 455px) {
-.copy h2{
-  font-size: 22px !important;
-}
-}
-
-@media only screen and (max-width: 455px) {
-.copy a{
-  font-size: 10px !important;
-}
+  .copy h2 {
+    font-size: 22px !important;
+  }
 }
 
 @media only screen and (max-width: 455px) {
-.copyLogo.slide-tekst img{
+  .copy a {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .copyLogo.slide-tekst img {
     width: 240px !important;
-}
+  }
 }
 
-.copy h2{
+.copy h2 {
   font-family: 'Arial';
-  font-size: 36px;
+  font-size  : 36px;
   font-weight: bold;
-  color: white;
-  margin: 50px 0px 0px 200px;
+  color      : white;
+  margin     : 50px 0px 0px 200px;
   line-height: normal;
 }
 
-.copy a{
-  margin: 0px 0px 0px 200px;
-  font-family: 'Arial';
-  font-size: 12px;
-  color: white;
+.copy a {
+  margin                 : 0px 0px 0px 200px;
+  font-family            : 'Arial';
+  font-size              : 12px;
+  color                  : white;
   text-underline-position: under;
 }
 
-.slide-tekst{
+.slide-tekst {
   position: relative;
 
-  -webkit-animation-name: bounceInLeft;
-  animation-name: bounceInLeft;
-  -webkit-animation-duration: 1.4s; 
-  animation-duration: 1.4s; 
+  -webkit-animation-name     : bounceInLeft;
+  animation-name             : bounceInLeft;
+  -webkit-animation-duration : 1.4s;
+  animation-duration         : 1.4s;
   -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; 
+  animation-fill-mode        : both;
 }
 
-       @-webkit-keyframes bounceInLeft {
-          0% {
-             opacity: 0;
-             -webkit-transform: translateX(-2000px);
-          }
-          60% {
-             opacity: 1;
-             -webkit-transform: translateX(0px);
-          }
-          80% {
-             -webkit-transform: translateX(-10px);
-          }
-          100% {
-             -webkit-transform: translateX(0);
-          }
-       }
-       
-       @keyframes bounceInLeft {
-          0% {
-             opacity: 0;
-             transform: translateX(-2000px);
-          }
-          60% {
-             opacity: 1;
-             transform: translateX(0px);
-          }
-          80% {
-             transform: translateX(-10px);
-          }
-          100% {
-             transform: translateX(0);
-          }
-       }
+@-webkit-keyframes bounceInLeft {
+  0% {
+    opacity          : 0;
+    -webkit-transform: translateX(-2000px);
+  }
 
-.w3-button{
+  60% {
+    opacity          : 1;
+    -webkit-transform: translateX(0px);
+  }
+
+  80% {
+    -webkit-transform: translateX(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes bounceInLeft {
+  0% {
+    opacity  : 0;
+    transform: translateX(-2000px);
+  }
+
+  60% {
+    opacity  : 1;
+    transform: translateX(0px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.w3-button {
   background-color: transparent;
-  border: none;
-  color: white;    
-  font-size: 1.6rem;
-  font-weight: 100;
+  border          : none;
+  color           : white;
+  font-size       : 1.6rem;
+  font-weight     : 100;
 }
 
-.w3-display-left{position:absolute;top:50%;left:1%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
-.w3-display-right{position:absolute;top:50%;right:1%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.w3-display-left {
+  position     : absolute;
+  top          : 50%;
+  left         : 1%;
+  transform    : translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%)
+}
+
+.w3-display-right {
+  position     : absolute;
+  top          : 50%;
+  right        : 1%;
+  transform    : translate(0%, -50%);
+  -ms-transform: translate(0%, -50%)
+}
 
 /* Badge */
-.w3-badge{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
-
-.w3-badge{
-cursor: pointer;
-border-radius:50%;
-height: 13px;
-width: 13px;
-padding:0;
+.w3-badge {
+  background-color: #000;
+  color           : #fff;
+  display         : inline-block;
+  padding-left    : 8px;
+  padding-right   : 8px;
+  text-align      : center
 }
 
-.demo-1{
-position:absolute;
-top:96%;
-left:48%;
-transform:translate(0%,-48%);
--ms-transform:translate(0%,-48%);
+.w3-badge {
+  cursor       : pointer;
+  border-radius: 50%;
+  height       : 13px;
+  width        : 13px;
+  padding      : 0;
 }
 
-.demo-2{
-position:absolute;
-top:96%;
-left:50%;
-transform:translate(0%,-50%);
--ms-transform:translate(0%,-50%);
+.demo-1 {
+  position     : absolute;
+  top          : 96%;
+  left         : 48%;
+  transform    : translate(0%, -48%);
+  -ms-transform: translate(0%, -48%);
 }
 
-.demo-3{
-position:absolute;
-top:96%;
-left:52%;
-transform:translate(0%,-52%);
--ms-transform:translate(0%,-52%);
+.demo-2 {
+  position     : absolute;
+  top          : 96%;
+  left         : 50%;
+  transform    : translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+
+.demo-3 {
+  position     : absolute;
+  top          : 96%;
+  left         : 52%;
+  transform    : translate(0%, -52%);
+  -ms-transform: translate(0%, -52%);
 }
 
 @media only screen and (max-width: 1200px) {
-.demo-1{
-left:47%;
-transform:translate(0%,-47%);
--ms-transform:translate(0%,-47%);
-}
+  .demo-1 {
+    left         : 47%;
+    transform    : translate(0%, -47%);
+    -ms-transform: translate(0%, -47%);
+  }
 
-.demo-3{
-left:53%;
-transform:translate(0%,-53%);
--ms-transform:translate(0%,-53%);
-}
+  .demo-3 {
+    left         : 53%;
+    transform    : translate(0%, -53%);
+    -ms-transform: translate(0%, -53%);
+  }
 }
 
 @media only screen and (max-width: 900px) {
-.demo-1{
-left:46%;
-transform:translate(0%,-46%);
--ms-transform:translate(0%,-46%);
-}
+  .demo-1 {
+    left         : 46%;
+    transform    : translate(0%, -46%);
+    -ms-transform: translate(0%, -46%);
+  }
 
-.demo-3{
-left:54%;
-transform:translate(0%,-54%);
--ms-transform:translate(0%,-54%);
-}
+  .demo-3 {
+    left         : 54%;
+    transform    : translate(0%, -54%);
+    -ms-transform: translate(0%, -54%);
+  }
 }
 
 @media only screen and (max-width: 600px) {
-.demo-1{
-left:44%;
-transform:translate(0%,-44%);
--ms-transform:translate(0%,-44%);
-}
+  .demo-1 {
+    left         : 44%;
+    transform    : translate(0%, -44%);
+    -ms-transform: translate(0%, -44%);
+  }
 
-.demo-3{
-left:56%;
-transform:translate(0%,-56%);
--ms-transform:translate(0%,-56%);
-}
+  .demo-3 {
+    left         : 56%;
+    transform    : translate(0%, -56%);
+    -ms-transform: translate(0%, -56%);
+  }
 }
 
 @media only screen and (max-width: 400px) {
-.demo-1{
-left:40%;
-transform:translate(0%,-40%);
--ms-transform:translate(0%,-40%);
+  .demo-1 {
+    left         : 40%;
+    transform    : translate(0%, -40%);
+    -ms-transform: translate(0%, -40%);
+  }
+
+  .demo-3 {
+    left         : 60%;
+    transform    : translate(0%, -60%);
+    -ms-transform: translate(0%, -60%);
+  }
 }
 
-.demo-3{
-left:60%;
-transform:translate(0%,-60%);
--ms-transform:translate(0%,-60%);
-}
+
+.w3-border {
+  border: 1px solid #ccc !important
 }
 
+.w3-transparent {
+  background-color: transparent !important
+}
 
-.w3-border{border:1px solid #ccc!important}
+.w3-hover-white:hover {
+  color           : #000 !important;
+  background-color: #fff !important
+}
 
-.w3-transparent{background-color:transparent!important}
-
-.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
-
-.w3-white,.w3-hover-white:hover{
-color:#000!important;
-background-color:#fff!important}
+.w3-white,
+.w3-hover-white:hover {
+  color           : #000 !important;
+  background-color: #fff !important
+}
 
 /* Fade in */
-.fade-in{
+.fade-in {
 
   animation: fadein 0.8s linear;
 }
@@ -611,14 +652,11 @@ background-color:#fff!important}
 
 
 @keyframes fadein {
-     0% {
-          opacity:.6;
-      }
-  
-      100% {
-          opacity:1;
-      }
+  0% {
+    opacity: .6;
   }
 
-
-
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,7 +1,3 @@
-body {
-
-  font-size: 18px;
-}
 
 p {
   line-height: 1.5;
@@ -225,7 +221,4 @@ p {
 
 .card img{
   height:58% !important;
-}
-.navbar{
-  background-color: lightblue;
 }
