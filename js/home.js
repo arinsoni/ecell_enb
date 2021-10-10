@@ -1,4 +1,4 @@
-var imageSlides = document.getElementsByClassName('imageSlides');
+/* var imageSlides = document.getElementsByClassName('imageSlides');
 var circles = document.getElementsByClassName('circle');
 var leftArrow = document.getElementById('leftArrow');
 var rightArrow = document.getElementById('rightArrow');
@@ -73,4 +73,4 @@ function slideshow() {
 }
 
 setTimeout(slideshow, 1);
-var imageSlideshowInterval = setInterval(slideshow, 6000);
+var imageSlideshowInterval = setInterval(slideshow, 6000); */

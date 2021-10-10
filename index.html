@@ -7,42 +7,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/nav.css">
-  <link rel="stylesheet" href="css/landing.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/nav.css"> 
+  <link rel="stylesheet" href="css/index_style.css">
+  <!-- STYLES END -->
 
   <title>Hello, world!</title>
 </head>
-<style>
-  html {
-    scroll-behavior: smooth;
-  }
-</style>
 
 <body>
-
-  <nav class="navbar  navbar-expand-lg" id="navbar">
-    <div class="container ">
-      <!-- LOGO -->
-      <a class="enb_logo" href="index.html"><img class="img-fluid" src="assets/enb-logo 1.png" alt=""></a>
-
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
+  <!-- NAV BAR -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="enb_logo" href="index.html"> LOGO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  mr-auto w-100 justify-content-end">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto w-100 justify-content-end">
-          <li class="nav-item active">
-            <a class="nav-link current" href="index.html">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link " href="initiatives.html">INITIATIVES</a>
           <li class="nav-item">
@@ -55,102 +41,299 @@
         </ul>
       </div>
     </div>
-  </nav>
-  <!-- Landingimage -->
-  <div class="splash">
-    <div class="splash_logo">
-      E-Cell
-    </div>
-    <div class="splash_svg">
-      <svg width="100%" height="100%">
-        <rect width="100%" height="100%">
-      </svg>
-    </div>
-    <div class="splash_minimize">
-      <svg width="100%" height="100%">
-        <rect width="100%" height="100%">
-      </svg>
-    </div>
-  </div>
-  <div class="text">
-    <p>EnB Club</p>
-    <p>IIT Bombay</p>
-    <button onClick="document.getElementById('home_content').scrollIntoView();" >About</button>
-  </div>
-  <!-- Landingimage end -->
-  <!-- About Us -->
-  <div id="home_content">
-    <h1 class="text-center aboutus_heading text-uppercase">About US</h1>
-    <p class="aboutus_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis et harum nisi sit
-      odio ratione delectus ullam
-      dignissimos illum, fugit quo voluptatem voluptas sint? Ut nemo magnam quaerat expedita.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequuntur facere nemo placeat reiciendis
-      modi nulla ab veniam sint, aliquid, totam fugit voluptates commodi possimus explicabo harum minima! Itaque, quasi?
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi veniam ipsum dolorum amet consequuntur eveniet
-      rerum nemo explicabo? Ullam, illo aspernatur. In, dignissimos quas eaque minima doloribus adipisci delectus
-      corrupti.z
-    </p>
-
-    <!-- sliding Images -->
-    <div class="slideshowContainer">
-
-
-      <img class="imageSlides"
-        src="https://images.unsplash.com/photo-1505929849118-b2d69eeecbcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-        alt="beach side city view">
-      <img class="imageSlides"
-        src="http://4.bp.blogspot.com/-oxlezteeOII/TfiTImj4RlI/AAAAAAAAA1k/UAgctmU5VZo/s1600/Widescreen+Unique+And+Beautiful+Photography+%25284%2529.jpg"
-        alt="leaf on the ground">
-      <img class="imageSlides" src="https://i.pinimg.com/originals/cf/ed/a0/cfeda03d01da4b779093c9d928c01dee.jpg"
-        alt="lake surrounded by mountains">
-
-
-      <span id="leftArrow" class="slideshowArrow">&#8249;</span>
-      <span id="rightArrow" class="slideshowArrow">&#8250;</span>
-
-      <div class="slideshowCircles">
-
-        <span class="circle dot"></span>
-        <span class="circle"></span>
-        <span class="circle"></span>
+  </nav> 
+ <!--  <div class="nav">
+    <div class="nav-header">
+      <div class="nav-title">
+        <a href="index.html">LOGO</a>
       </div>
-
     </div>
-    <br>
+    
 
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
+    <div class="nav-links" >
+      <a href="initiatives.html" target="_blank">INITIATIVES</a>
+      <a href="startups.html" target="_blank">OUR STARTUPS</a>
+      <a href="resources.html" target="_blank">RESOURCES</a>
+      <a href="#" target="_blank">CONTACT</a>
     </div>
+  </div> -->
+  <!--  -->
+  <br>
+  <br>
+
+  <!-- NAV BAR END -->
+  <!-- Landing Page----------------------------------------------------------------------------------------------- -->
+
+  <div id="parallax-world-of-ugg">
+    <section class="landing_heading">
+      <div class="title">
+        <h3>The</h3>
+        <h1 class="text-capitalize">ENTREPRENEURSHIP</h1>
+
+        <h3 style="display: inline !important;">&</h3>
+        <h1 style="display: inline !important;">BUSINESS CLUB</h1>
+        <br><br>
+        <h6> Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Sit obcaecati eum vel ipsam voluptatem sint,
+        </h6>
+        <br>
+        <a href="#about_us"><button type="button" class="btn">ABOUT US</button></a>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="parallax-one">
+        <h2>SOUTHERN CALIFORNIA</h2>
+      </div>
+    </section>
+
+    <section>
+      <div class="block" id="about_us">
+        <p><span class="first-character sc">I</span>n 1978, Brian Smith landed in Southern California with a bag of
+          sheepskin boots and hope. He fell in love with the sheepskin experience and was convinced the world would one
+          day share this love. The beaches of Southern California had long been an epicenter of a relaxed, casual
+          lifestyle, a lifestyle that Brian felt was a perfect fit for his brand. So he founded the UGG brand, began
+          selling his sheepskin boots and they were an immediate sensation. By the mid 1980's, the UGG brand became a
+          symbol of relaxed southern California culture, gaining momentum through surf shops and other shops up and down
+          the coast of California, from San Diego to Santa Cruz. UGG boots reached beyond the beach, popping up in big
+          cities and small towns all over, and in every level of society. Girls wore their surfer boyfriend's pair of
+          UGG boots like a letterman jacket. When winter came along, UGG boots were in ski shops and were seen in lodges
+          from Mammoth to Aspen.</p>
+
+
+      </div>
+    </section>
+
+    <section>
+
+      <div class="content display-container">
+
+        <section id="hero1" class="mySlides hero fade-in">
+          <div class="inner">
+
+
+            <div class="copyLogo slide-tekst">
+              <img class="slider-energi" src="https://image.flaticon.com/icons/png/512/36/36447.png"
+                style="width: 320px;">
+            </div>
+          </div>
+        </section>
+
+        <section id="hero2" class="mySlides hero fade-in">
+          <div class="inner">
+
+            <div class="copy slide-tekst">
+              <div class="ast-col-md-6 elbillader-banner">
+                <h2>
+                  Have you considered <br>travelling?
+                </h2>
+                <a href="#"><u><b>Contact us</b></u></a>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section id="hero3" class="mySlides hero fade-in">
+          <div class="inner">
+
+            <div class="copy slide-tekst">
+              <div class="ast-col-md-6 elbillader-banner">
+                <h2>
+                  Do you <br>lift?
+                </h2>
+                <a href="#"><u><b>Contact Us</b></u></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+        <span class="w3-badge demo demo-1 w3-border w3-transparent w3-hover-white" id="badge1" onclick="currentDiv(1)">
+        </span>
+        <span class="w3-badge demo demo-2 w3-border w3-transparent w3-hover-white" id="badge2"
+          onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo demo-3 w3-border w3-transparent w3-hover-white" id="badge3"
+          onclick="currentDiv(3)"></span>
+
+      </div>
+    </section>
+
+    <!-- <section>
+    <div class="block">
+      <p><span class="first-character ny">B</span>reaking into the New York fashion world is no easy task. But by the
+        early 2000's, UGG Australia began to take it by storm. The evolution of UGG from a brand that made sheepskin
+        boots, slippers, clogs and sandals for an active, outdoor lifestyle to a brand that was now being touted as a
+        symbol of a stylish, casual and luxurious lifestyle was swift. Much of this was due to a brand repositioning
+        effort that transformed UGG into a high-end luxury footwear maker. As a fashion brand, UGG advertisements now
+        graced the pages of Vogue Magazine as well as other fashion books. In the mid 2000's, the desire for premium
+        casual fashion was popping up all over the world and UGG was now perfectly aligned with this movement.</p>
+      <p class="line-break margin-top-10"></p>
+      <p class="margin-top-10">Fueled by celebrities from coast to coast wearing UGG boots and slippers on their
+        downtime, an entirely new era of fashion was carved out. As a result, the desire and love for UGG increased as
+        people wanted to go deeper into this relaxed UGG experience. UGG began offering numerous color and style
+        variations on their sheepskin boots and slippers. Cold weather boots for women and men and leather casuals
+        were added with great success. What started as a niche item, UGG sheepskin boots were now a must-have staple
+        in everyone's wardrobe. More UGG collections followed, showcasing everything from knit boots to sneakers to
+        wedges, all the while maintaining that luxurious feel UGG is known for all over the world. UGG products were
+        now seen on runways and in fashion shoots from coast to coast. Before long, the love spread even further.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="parallax-three">
+      <h2>ENCHANTED FOREST</h2>
+    </div>
+  </section>
+
+  <section>
+    <div class="block">
+      <p><span class="first-character atw">W</span>hen the New York fashion community notices your brand, the world
+        soon follows. The widespread love for UGG extended to Europe in the mid-2000's along with the stylish casual
+        movement and demand for premium casual fashion. UGG boots and shoes were now seen walking the streets of
+        London, Paris and Amsterdam with regularity. To meet the rising demand from new fans, UGG opened flagship
+        stores in the UK and an additional location in Moscow. As the love spread farther East, concept stores were
+        opened in Beijing, Shanghai and Tokyo. UGG Australia is now an international brand that is loved by all. This
+        love is a result of a magical combination of the amazing functional benefits of sheepskin and the heightened
+        emotional feeling you get when you slip them on your feet. In short, you just feel better all over when you
+        wear UGG boots, slippers, and shoes.</p>
+      <p class="line-break margin-top-10"></p>
+      <p class="margin-top-10">In 2011, UGG will go back to its roots and focus on bringing the active men that
+        brought the brand to life back with new styles allowing them to love the brand again as well. Partnering with
+        Super Bowl champion and NFL MVP Tom Brady, UGG will invite even more men to feel the love the rest of the
+        world knows so well. UGG will also step into the world of high fashion with UGG Collection. The UGG Collection
+        fuses the timeless craft of Italian shoemaking with the reliable magic of sheepskin, bringing the luxurious
+        feel of UGG to high end fashion. As the love for UGG continues to spread across the world, we have continued
+        to offer new and unexpected ways to experience the brand. The UGG journey continues on and the love for UGG
+        continues to spread.</p>
+    </div>
+  </section>
+-->
   </div>
-
+  <!-- Landing Page END -->
 
 
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
+  <!-- JS FILES -->
   <script src="js/home.js"></script>
-  <script>
-    $(function () {
-      $("#upBtn").click(function () {
-        $('#textBody').scrollTop($('#textBody').scrollTop() - 20);
-      });
+  <!-- JS FILES END -->
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    -->
+  <script
+    src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+  <script id="rendered-js">
+    var slideIndex = 1;
+    showDivs(slideIndex);
 
-      $("#downBtn").click(function () {
-        $('#textBody').scrollTop($('#textBody').scrollTop() + 20);;
-      });
+    var slideIndex = 0;
 
+    var myVar;
+
+    carousel();
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+
+    function myFunction() {
+      myVar = setTimeout(carousel, 100000000000000);
+    }
+
+    function myStopFunction() {
+      clearTimeout(myVar);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) { slideIndex = 1; }
+      if (n < 1) { slideIndex = x.length; }
+      for (i = 0; i < x.length; i++) {
+        if (window.CP.shouldStopExecution(0)) break;
+        x[i].style.display = "none";
+      } window.CP.exitedLoop(0);
+      for (i = 0; i < dots.length; i++) {
+        if (window.CP.shouldStopExecution(1)) break;
+        dots[i].className = dots[i].className.replace(" w3-white", "");
+      } window.CP.exitedLoop(1);
+      x[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " w3-white";
+
+      myStopFunction();
+      myFunction();
+    }
+
+    function carousel() {
+      var dots = document.getElementsByClassName("demo");
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        if (window.CP.shouldStopExecution(2)) break;
+        x[i].style.display = "none";
+      } window.CP.exitedLoop(2);
+
+      slideIndex++;
+      if (slideIndex > x.length) { slideIndex = 1; }
+      x[slideIndex - 1].style.display = "block";
+
+      for (i = 0; i < dots.length; i++) {
+        if (window.CP.shouldStopExecution(3)) break;
+        dots[i].className = dots[i].className.replace(" w3-white", "");
+      } window.CP.exitedLoop(3);
+
+      dots[slideIndex - 1].className += " w3-white";
+
+      myStopFunction();
+      myFunction();
+
+
+    }
+
+  </script>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+  <script id="rendered-js">
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 300) {
+          $(".navbar").css("background", "lightblue");
+
+        } else {
+          $(".navbar").css("background", "#fff");
+        }
+      });
+    });
+
+  </script>
+  <script id="rendered-js">
+    $(document).ready(function () {
+      var scroll_pos = 0;
+      $(document).scroll(function () {
+        scroll_pos = $(this).scrollTop();
+        if (scroll_pos > 300) {
+          $('.nav-link').css('color', 'white');
+        } else {
+          $('.nav-link').css('color', 'black');
+        }
+      });
     });
   </script>
-
 </body>
 
 </html>
