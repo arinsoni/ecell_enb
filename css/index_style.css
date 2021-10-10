@@ -338,8 +338,7 @@ body {
 #hero1 {
   background           : url('https://images.unsplash.com/photo-1633797694830-138fc0df9ade?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80');
   background-size      : cover;
-  background-size: 100vw 100vw;
-  background-repeat: no-repeat;
+  
   background-position  : center center;
   background-attachment: fixed;
 }
@@ -347,8 +346,7 @@ body {
 #hero2 {
   background           : url('https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80');
   background-size      : cover;
-  background-size: 100vw 100vw;
-  background-repeat: no-repeat;
+  
   background-position  : center center;
   background-attachment: fixed;
 }
@@ -356,8 +354,7 @@ body {
 #hero3 {
   background           : url('https://images.unsplash.com/photo-1633876719841-4276b4c24386?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80');
   background-size      : cover;
-  background-size: 100vw 100vw;
-  background-repeat: no-repeat;
+  
   background-position  : center center;
   background-attachment: fixed;
 }
