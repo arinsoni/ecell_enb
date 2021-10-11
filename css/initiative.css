@@ -1,10 +1,9 @@
-
 p {
   line-height: 1.5;
 }
 
 .container {
-  max-width: 800px;
+ 
   margin: 0 auto;
 }
 
@@ -222,3 +221,12 @@ p {
 .card img{
   height:58% !important;
 }
+
+/* NAVBAR */
+.navbar{
+  background-color: black;
+}
+.nav-link{
+  color: white !important;
+}
+/* NAVBAR END */
