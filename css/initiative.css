@@ -228,7 +228,7 @@ p {
 }
 
 .nav-item:hover {
-	background-color: white;
+	background-color: lightblue;
 	
 	border-bottom   : 1rem black;
 }
@@ -296,3 +296,9 @@ color: black !important;
   color: white !important;
 }
 /* NAVBAR END */
+
+.landing_content{
+  padding-left: 3vw;
+ 
+}
+
