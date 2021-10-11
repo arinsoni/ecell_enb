@@ -6,26 +6,25 @@
 .navbar .nav-link {
 	font-size  : 16px;
 	margin-left: 10px;
-	color      : black !important;
+color: #000;
+
 }
 
 .navbar {
-	position: fixed;
-	z-index: 1000;
-	width: 100%;
-	transition: transform 300ms;
-	background-color: grey !important;
-	
+	position  : fixed;
+	z-index   : 1000;
+	width     : 100%;
+	transition: all ease 0.3s;
+
+
+
 }
 
- .hide {
+.hide {
 	transform: translateY(-81px);
 }
 
-.navbar-nav li a:hover,
-.navbar-nav li a.current {
-	color: lightcoral
-}
+
 
 .fa-bars {
 	color    : white;
@@ -35,3 +34,88 @@
 .navbar-toggler i:hover {
 	color: lightcoral;
 }
+
+.navbar {
+	padding-top   : 0 !important;
+	padding-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+	.navbar-nav a:hover {
+		background-color: transparent !important;
+	}
+}
+
+.nav-link {
+	padding: 2rem 2rem !important;
+}
+
+.nav-item:hover {
+	background-color: lightblue;
+	
+	border-bottom   : 1rem black;
+}
+
+
+.nav-item {
+	display: inline-block;
+
+	text-decoration: none;
+
+}
+
+.nav-item::after {
+	content   : '';
+	display   : block;
+	width     : 0;
+	height    : 2px;
+	background: black;
+	
+	transition: width .3s;
+}
+/* .newClass::after {
+	content   : '';
+	display   : block;
+	width     : 0;
+	height    : 2px;
+	background: white;
+	
+	transition: width .3s;
+} */
+
+.nav-item:hover::after {
+	width: 100%;
+
+	transition: width .3s;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+	padding-right: var(--bs-gutter-x, 0rem) !important;
+	padding-left : var(--bs-gutter-x, 0rem) !important;
+}
+
+
+.black-nav .nav-link {
+	color: white !important;
+}
+
+
+.black-nav .nav-item:hover .nav-link{
+	color: black !important;
+}
+/* .newClass .nav-item::after {
+	content   : '';
+	display   : block;
+	width     : 0;
+	height    : 2px;
+	background: black !important;
+	
+	transition: width .3s;
+}
+ */
