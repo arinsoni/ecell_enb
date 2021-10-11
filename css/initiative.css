@@ -181,6 +181,18 @@ p {
   transform: translate3d(20%, -40px, 0px);
   opacity: 0;
 }
+.cover{
+  position: absolute;
+}
+
+.cover:active{
+  
+}
+.landing_content{
+  position: absolute;
+ 
+ 
+}
 
 .cover {
   transition: transform 300ms ease-in-out;
@@ -297,8 +309,5 @@ color: black !important;
 }
 /* NAVBAR END */
 
-.landing_content{
-  padding-left: 3vw;
- 
-}
+
 

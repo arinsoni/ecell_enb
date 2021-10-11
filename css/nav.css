@@ -38,7 +38,7 @@
 }
 
   .fa-bars {
-    color: white;
+    color: white !important;
     font-size: 30px;
   }
 
@@ -47,7 +47,7 @@
   }
 
   .nav-link {
-    background-color: black;
+    
     color: white !important;
   }
 }
