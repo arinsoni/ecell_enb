@@ -14,106 +14,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/initiative.css">
+  <link rel="stylesheet" href="css/index_style.css">
   <link rel="stylesheet" href="css/resources_style.css">
-  <link rel="stylesheet" href="css/cardstyle.css">
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- AOS END -->
+  <!-- STYLES END -->
 
   <title>Hello, world!</title>
 </head>
-<style>
-  
-  .resources_cards .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
-  border-radius: 8px;
-  z-index: 1;
-}
 
-.resources_cards .icon-box::before {
-  content: '';
-  position: absolute;
-  background: #cbe0fb;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 100%;
-  transition: all 0.3s;
-  z-index: -1;
-}
-
-.resources_cards .icon-box:hover::before {
-  background: #106eea;
-  top: 0;
-  border-radius: 0px;
-}
-
-.resources_cards .icon {
-  margin-bottom: 15px;
-}
-
-.resources_cards .icon i {
-  font-size: 48px;
-  line-height: 1;
-  color: #106eea;
-  transition: all 0.3s ease-in-out;
-}
-
-.resources_cards .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.resources_cards .title a {
-  color: #111;
-}
-
-.resources_cards .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-.resources_cards .icon-box:hover .title a, .resources_cards .icon-box:hover .description {
-  color: #fff;
-}
-
-.resources_cards .icon-box:hover .icon i {
-  color: #fff;
-}
-
-</style>
 
 <body>
-
-  <nav class="navbar sticky-top navbar-expand-lg ">
-    <div class="container ">
-      <!-- LOGO -->
+  <!-- NAV BAR -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+    <div class="container-fluid">
       <a class="enb_logo" href="index.html"><img class="img-fluid" src="assets/enb-logo 1.png" alt=""></a>
-
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  mr-auto w-100 justify-content-end">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto w-100 justify-content-end">
-          <li class="nav-item active">
-            <a class="nav-link " href="index.html">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link " href="initiatives.html">INITIATIVES</a>
           <li class="nav-item">
             <a class="nav-link" href="startups.html">OUR STARTUPS</a>
-          <li class="nav-item">
-            <a class="nav-link current" href="resources.html">RESOURCES</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="resources.html">RESOURCES</a>
           <li class="nav-item">
             <a class="nav-link" href="#">CONTACT</a>
           </li>
@@ -121,77 +48,430 @@
       </div>
     </div>
   </nav>
-  <!-- NAVBAR end -->
-  <div class="resources_body">
-  <!-- LANDING IMAGE -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1>Welcome to <span>EnB Resources</span></h1>
-      <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, debitis?</h2>
-      <div class="d-flex">
-        <a href="#resources_cards" class="btn-get-started scrollto">Get Started</a>
-        <a href="#" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-      </div>
+  <br>
+  <section class="landing_heading text-center">
+    <div class="title">
+      <h1 class="text-capitalize">Welcome to EnB</h1>
+
+      <h1 style="display: inline !important;">RESOURCES</h1>
+      <br><br>
+      <h6> Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Sit obcaecati eum vel ipsam voluptatem
+        sint,
+      </h6>
+      <br>
+
     </div>
   </section>
-  <!-- LANDING IMAGE END -->
 
-  <!-- CARDS -->
-  <section id="resources_cards" class="resources_cards">
-    <div class="container" data-aos="fade-up">
-      <div class="row">
-        <main class="page-content">
-          <div class="row row-margin-10">
-            <div class="card">
-              <div class="content">
-                <h2 class="title">ENSPACE</h2>
-                <p class="copy">Plan your next beach trip with these fabulous destinations</p>
-                <a href="https://www.ecell.in/enspace/" target="_blank"> <button class="btn">View Trips</button></a>
+  <div class="inpage_nav">
+    <div class="inpage_link box_1 " id="box_1">
+      <h7>LINKS</h7>
+    </div>
+    <div class="inpage_link" id="box_2">
+      <h7>VIDEOS</h7>
+    </div>
+    <div class="inpage_link" id="box_3">
+      <h7>BOOKS</h7>
+    </div>
+  </div>
+  <div class="content">
+    <div class="page content-1 active_2">
+      <h2>LINKS</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint nobis aut dicta! Illo deleniti omnis aliquam
+        nihil at sapiente id facere, hic tempore nesciunt voluptatibus perferendis saepe. Necessitatibus, optio alias.
+      </p>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_1">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
               </div>
             </div>
-            <div class="card">
-              <div class="content">
-                <h2 class="title">SSP</h2>
-                <p class="copy">It's the desert you've always dreamed of</p>
-                <a href="https://www.ecell.in/ssp/" target="_blank"> <button class="btn">Book Now</button></a>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur ipsam cupiditate magni libero sed
+                nostrum dolores dolorem. Veniam deleniti, veritatis nisi repellendus quae necessitatibus quia ipsam
+                animi voluptatem aut?</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_1">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
               </div>
             </div>
-            <div class="card">
-              <div class="content">
-                <h2 class="title">Government Scheme</h2>
-                <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-                <a href="layout.html" target="_blank"><button class="btn">Book Now</button></a>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat non vel, eaque quasi cumque autem,
+                repudiandae atque .</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_1">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
               </div>
             </div>
-        </main>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt quis natus atque enim,
+                reprehenderit .</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_1">
+            <div class="panel">
+              <div class="overlay center">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem suscipit voluptate blanditiis cumque
+                nulla adipisci inventore totam alias dicta fuga eaque, consequatur incidunt quo facere consectetur
+                assumenda accusamus, cum reprehenderit.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="row thumbnails">
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_1">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam amet nulla cupiditate cum soluta
+                quidem modi exercitationem natus quis sed dignissimos numquam itaque, commodi reprehenderit minima sunt
+                nesciunt unde dolore!</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_1">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati maiores amet distinctio
+                reiciendis praesentium ex, totam alias eius voluptatibus blanditiis culpa atque, ipsum velit quod
+                eligendi voluptatem asperiores cumque.</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_1">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illum cum esse voluptatem impedit
+                consequuntur omnis, a eos quis est tempora quam harum ab, odio, laborum debitis perspiciatis quasi
+                doloribus!</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_1">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut quo consectetur ex dicta
+                recusandae quas rem sequi, ut commodi a eligendi laboriosam. Dignissimos sunt nostrum earum
+                necessitatibus nobis accusantium.</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
-  </section>
-</div>
-  <!-- CARDS END -->
+    <!-- CINTENT 2------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="page content-2">
+      <h2>LINKS</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint nobis aut dicta! Illo deleniti omnis
+      </p>
+
+      <div class="container">
+        <div class="row">
+          <div class="box col-xs-12 col-sm-6 " id="content_2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2147TgFDnP4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            </iframe>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur ipsam cupiditate magni libero sed
+                nostrum dolores </p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 " id="content_2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2147TgFDnP4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            </iframe>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat non vel, eaque quasi cumque autem,
+                repudiandae atque .</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 " id="content_2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2147TgFDnP4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            </iframe>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt quis natus atque enim,
+                reprehenderit .</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 " id="content_2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2147TgFDnP4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="description">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem suscipit voluptate blanditiis cumque
+                nulla adipisci inventore</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="row thumbnails">
+
+          <div class="box col-xs-12 col-sm-6 " id="content_2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2147TgFDnP4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            </iframe>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam amet nulla cupiditate cum soluta
+                quidem modi exercita</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 " id="content_2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2147TgFDnP4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            </iframe>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati maiores amet distinctio
+                reiciendis praesentium ex, .</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 " id="content_2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2147TgFDnP4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            </iframe>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illum cum esse voluptatem impedit
+                consequunt</p>
+            </div>
+          </div>
+
+          <div class="box col-xs-12 col-sm-6 " id="content_2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2147TgFDnP4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut quo consectetur ex dicta
+                recusandae quas rem sequi, </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTENT3----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="page content-2">
+      <h2>LINKS</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint nobis aut dicta! Illo deleniti omnis aliquam
+        nihil at sapiente id facere, hic tempore nesciunt voluptatibus perferendis saepe. Necessitatibus, optio alias.
+      </p>
+
+      <div class="container">
+        <div class="row">
 
 
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_3">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut quo consectetur ex dicta
+                recusandae quas rem sequi, ut commodi a eligendi laboriosam. Dignissimos sunt nostrum earum
+                necessitatibus nobis accusantium.</p>
+            </div>
+          </div>
+
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_3">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut quo consectetur ex dicta
+                recusandae quas rem sequi, ut commodi a eligendi laboriosam. Dignissimos sunt nostrum earum
+                necessitatibus nobis accusantium.</p>
+            </div>
+          </div>
+
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_3">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut quo consectetur ex dicta
+                recusandae quas rem sequi, ut commodi a eligendi laboriosam. Dignissimos sunt nostrum earum
+                necessitatibus nobis accusantium.</p>
+            </div>
+          </div>
+
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_3">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut quo consectetur ex dicta
+                recusandae quas rem sequi, ut commodi a eligendi laboriosam. Dignissimos sunt nostrum earum
+                necessitatibus nobis accusantium.</p>
+            </div>
+          </div>
+
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_3">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut quo consectetur ex dicta
+                recusandae quas rem sequi, ut commodi a eligendi laboriosam. Dignissimos sunt nostrum earum
+                necessitatibus nobis accusantium.</p>
+            </div>
+          </div>
+
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_3">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut quo consectetur ex dicta
+                recusandae quas rem sequi, ut commodi a eligendi laboriosam. Dignissimos sunt nostrum earum
+                necessitatibus nobis accusantium.</p>
+            </div>
+          </div>
+
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_3">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut quo consectetur ex dicta
+                recusandae quas rem sequi, ut commodi a eligendi laboriosam. Dignissimos sunt nostrum earum
+                necessitatibus nobis accusantium.</p>
+            </div>
+          </div>
+
+
+          <div class="box col-xs-12 col-sm-6 col-md-3" id="content_3">
+            <div class="panel">
+              <div class="overlay">
+                <a href="#">LINK</a>
+              </div>
+            </div>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut quo consectetur ex dicta
+                recusandae quas rem sequi, ut commodi a eligendi laboriosam. Dignissimos sunt nostrum earum
+                necessitatibus nobis accusantium.</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--  -->
+
+  <!-- Landing Page END -->
 
 
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
-  <!-- AOS  -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1200,
-      once: true,
-    })
+  <script
+    src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js">
   </script>
-  <!-- AOS END -->
+  <!-- JS -->
+  <script id="rendered-js">
+    $('.inpage_link').first().addClass('active_2');
+
+    $('.inpage_link').click(function () {
+      var $this = $(this);
+      $siblings = $this.parent().children(),
+        position = $siblings.index($this);
+      console.log(position);
+
+      $('.page').removeClass('active_2').eq(position).addClass('active_2');
+
+      $siblings.removeClass('active_2');
+      $this.addClass('active_2');
+    });
+    //# sourceURL=pen.js
+  </script>
+  <!-- JS -->
+
+
+
+
+
+
 </body>
 
 </html>
