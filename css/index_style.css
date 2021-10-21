@@ -6,7 +6,7 @@
 
 
 #main {
-  width  : 100%;
+  width: 100%;
   padding: 0;
 }
 
@@ -26,52 +26,52 @@
 /* Typography */
 /**************************/
 #parallax-world-of-ugg h1 {
-  font-family   : 'Oswald', sans-serif;
-  font-size     : 24px;
-  font-weight   : 400;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
   text-transform: uppercase;
-  color         : black;
+  color: black;
 
 }
 
 #parallax-world-of-ugg h2 {
-  font-family   : 'Oswald', sans-serif;
-  font-size     : 70px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
   letter-spacing: 10px;
-  text-align    : center;
-  color         : white;
-  font-weight   : 400;
+  text-align: center;
+  color: white;
+  font-weight: 400;
   text-transform: uppercase;
-  z-index       : 10;
-  opacity       : .9;
+  z-index: 10;
+  opacity: .9;
 }
 
 #parallax-world-of-ugg h3 {
-  font-family   : 'Oswald', sans-serif;
-  font-size     : 14px;
-  line-height   : 0;
-  font-weight   : 400;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  line-height: 0;
+  font-weight: 400;
   letter-spacing: 8px;
   text-transform: uppercase;
-  color         : black;
+  color: black;
 }
 
 #parallax-world-of-ugg p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  font-size  : 14px;
+  font-size: 14px;
   line-height: 24px;
 }
 
 .first-character {
   font-weight: 400;
-  float      : left;
-  font-size  : 84px;
+  float: left;
+  font-size: 84px;
   line-height: 64px;
 
   padding-right: 8px;
-  padding-left : 3px;
-  font-family  : 'Source Sans Pro', sans-serif;
+  padding-left: 3px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .sc {
@@ -90,13 +90,13 @@
 /**************************/
 #parallax-world-of-ugg .title {
   background: white;
-  padding   : 60px;
+  padding: 60px;
 
   text-align: center;
 }
 
 #parallax-world-of-ugg .title h1 {
-  font-size     : 35px;
+  font-size: 35px;
   letter-spacing: 8px;
 }
 
@@ -104,80 +104,80 @@
 /**************************/
 #parallax-world-of-ugg .block {
   background: white;
-  padding   : 60px;
-  width     : 820px;
+  padding: 60px;
+  width: 820px;
 
   text-align: justify;
 }
 
 #parallax-world-of-ugg .block-gray {
   background: #f2f2f2;
-  padding   : 60px;
+  padding: 60px;
 }
 
 #parallax-world-of-ugg .section-overlay-mask {
-  position        : absolute;
-  top             : 0;
-  left            : 0;
-  width           : 100%;
-  height          : 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-color: black;
-  opacity         : 0.70;
+  opacity: 0.70;
 }
 
 /* Section - Parallax */
 /**************************/
 #parallax-world-of-ugg .parallax-one {
-  padding-top            : 200px;
-  padding-bottom         : 200px;
-  overflow               : hidden;
-  position               : relative;
-  width                  : 100%;
-  background-image       : url('https://images.unsplash.com/photo-1633807283085-c6ae888a23f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=411&q=80');
-  background-attachment  : fixed;
-  background-size        : cover;
-  -moz-background-size   : cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1633807283085-c6ae888a23f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=411&q=80');
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
   -webkit-background-size: cover;
-  background-repeat      : no-repeat;
-  background-position    : top center;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 #parallax-world-of-ugg .parallax-two {
-  padding-top            : 200px;
-  padding-bottom         : 200px;
-  overflow               : hidden;
-  position               : relative;
-  width                  : 100%;
-  background-image       : url('https://images.unsplash.com/photo-1633797694830-138fc0df9ade?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80');
-  background-attachment  : fixed;
-  background-size        : cover;
-  -moz-background-size   : cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1633797694830-138fc0df9ade?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80');
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
   -webkit-background-size: cover;
-  background-repeat      : no-repeat;
-  background-position    : center center;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #parallax-world-of-ugg .parallax-three {
-  padding-top            : 200px;
-  padding-bottom         : 200px;
-  overflow               : hidden;
-  position               : relative;
-  width                  : 100%;
-  background-image       : url('https://images.unsplash.com/photo-1633876719841-4276b4c24386?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2069&q=80');
-  background-attachment  : fixed;
-  background-size        : cover;
-  -moz-background-size   : cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1633876719841-4276b4c24386?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2069&q=80');
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
   -webkit-background-size: cover;
-  background-repeat      : no-repeat;
-  background-position    : center center;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* Extras */
 /**************************/
 #parallax-world-of-ugg .line-break {
   border-bottom: 1px solid black;
-  width        : 150px;
-  margin       : 0 auto;
+  width: 150px;
+  margin: 0 auto;
 }
 
 /* Media Queries */
@@ -198,7 +198,7 @@
 @media screen and (max-width: 959px) and (min-width: 768px) {
   #parallax-world-of-ugg .block {
     padding: 40px;
-    width  : 620px;
+    width: 620px;
   }
 
 
@@ -207,7 +207,7 @@
 @media screen and (max-width: 767px) {
   #parallax-world-of-ugg .block {
     padding: 30px;
-    width  : 420px;
+    width: 420px;
   }
 
   #parallax-world-of-ugg h2 {
@@ -221,7 +221,7 @@
   #parallax-world-of-ugg .parallax-one,
   #parallax-world-of-ugg .parallax-two,
   #parallax-world-of-ugg .parallax-three {
-    padding-top   : 100px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
 }
@@ -229,38 +229,38 @@
 @media screen and (max-width: 479px) {
   #parallax-world-of-ugg .block {
     padding: 30px 15px;
-    width  : 290px;
+    width: 290px;
   }
 }
 
 
 .landing_heading .btn {
-  width           : 15vw;
+  width: 15vw;
   background-color: black !important;
-  color           : white !important;
+  color: white !important;
 }
 
 /* LANDING STYLE END--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* CAROUSEL */
 .slideshowContainer {
   position: relative;
-  z-index : 1000;
+  z-index: 1000;
   overflow: hidden;
-  margin  : 50px 0 75px;
-  width   : 100%;
-  height  : 500px;
+  margin: 50px 0 75px;
+  width: 100%;
+  height: 500px;
 }
 
 .imageSlides {
-  position  : absolute;
-  left      : 50%;
-  top       : 50%;
-  transform : translate(-50%, -50%);
-  min-width : 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
   min-height: 100%;
-  opacity   : 0;
+  opacity: 0;
   transition: opacity 1s ease-in-out;
-  z-index   : -1;
+  z-index: -1;
 }
 
 .visible {
@@ -268,9 +268,9 @@
 }
 
 .slideshowArrow {
-  font-size : 7em;
-  color     : rgba(255, 255, 255, 0.5);
-  cursor    : pointer;
+  font-size: 7em;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -279,41 +279,41 @@
 }
 
 #leftArrow {
-  position : absolute;
-  left     : 4%;
-  top      : 50%;
+  position: absolute;
+  left: 4%;
+  top: 50%;
   transform: translate(-50%, -50%);
 }
 
 #rightArrow {
-  position : absolute;
-  right    : 4%;
-  top      : 50%;
+  position: absolute;
+  right: 4%;
+  top: 50%;
   transform: translate(50%, -50%);
 }
 
 .slideshowCircles {
-  position  : absolute;
-  bottom    : 2%;
-  left      : 50%;
-  transform : translate(-50%, -50%);
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .circle {
-  display      : inline-block;
-  margin-left  : 3px;
-  margin-right : 3px;
-  width        : 15px;
-  height       : 15px;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  border       : solid 2px rgba(255, 255, 255, 0.5);
-  transition   : 1s ease-in-out;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  transition: 1s ease-in-out;
 }
 
 .dot {
   background-color: rgba(255, 255, 255, 0.7);
-  border          : solid 2px rgba(255, 255, 255, 0.5);
+  border: solid 2px rgba(255, 255, 255, 0.5);
 }
 
 /* CAROUSEL END */
@@ -327,61 +327,61 @@
 /* Sections */
 
 #hero1 {
-  background     : url('https://images.unsplash.com/photo-1633797694830-138fc0df9ade?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80');
+  background: url('https://images.unsplash.com/photo-1633797694830-138fc0df9ade?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80');
   background-size: cover;
 
-  background-position  : center center;
+  background-position: center center;
   background-attachment: fixed;
 }
 
 #hero2 {
-  background     : url('https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80');
+  background: url('https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80');
   background-size: cover;
 
-  background-position  : center center;
+  background-position: center center;
   background-attachment: fixed;
 }
 
 #hero3 {
-  background     : url('https://images.unsplash.com/photo-1633876719841-4276b4c24386?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80');
+  background: url('https://images.unsplash.com/photo-1633876719841-4276b4c24386?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80');
   background-size: cover;
 
-  background-position  : center center;
+  background-position: center center;
   background-attachment: fixed;
 }
 
 .hero,
 .content {
   position: relative;
-  width   : 100%;
+  width: 100%;
 }
 
 .inner {
-  margin         : 0 auto;
-  min-height     : 600px;
-  display        : -webkit-box;
-  display        : -moz-box;
-  display        : -ms-flexbox;
-  display        : -webkit-flex;
-  display        : flex;
-  align-items    : center;
+  margin: 0 auto;
+  min-height: 600px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
   justify-content: left;
 
 }
 
 
 .copy.slide-tekst {
-  margin             : 0;
-  background-image   : url(http://sola-elektro.no/wp-content/uploads/2019/02/Reklame-grøn-bg.png);
+  margin: 0;
+  background-image: url(http://sola-elektro.no/wp-content/uploads/2019/02/Reklame-grøn-bg.png);
   background-position: right;
-  height             : 200px;
-  width              : 800px;
+  height: 200px;
+  width: 800px;
 }
 
 .copyLogo.slide-tekst {
   margin: 0px 0px 0px 200px;
   height: 200px;
-  width : 800px;
+  width: 800px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -429,40 +429,40 @@
 
 .copy h2 {
   font-family: 'Arial';
-  font-size  : 36px;
+  font-size: 36px;
   font-weight: bold;
-  color      : white;
-  margin     : 50px 0px 0px 200px;
+  color: white;
+  margin: 50px 0px 0px 200px;
   line-height: normal;
 }
 
 .copy a {
-  margin                 : 0px 0px 0px 200px;
-  font-family            : 'Arial';
-  font-size              : 12px;
-  color                  : white;
+  margin: 0px 0px 0px 200px;
+  font-family: 'Arial';
+  font-size: 12px;
+  color: white;
   text-underline-position: under;
 }
 
 .slide-tekst {
   position: relative;
 
-  -webkit-animation-name     : bounceInLeft;
-  animation-name             : bounceInLeft;
-  -webkit-animation-duration : 1.4s;
-  animation-duration         : 1.4s;
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+  -webkit-animation-duration: 1.4s;
+  animation-duration: 1.4s;
   -webkit-animation-fill-mode: both;
-  animation-fill-mode        : both;
+  animation-fill-mode: both;
 }
 
 @-webkit-keyframes bounceInLeft {
   0% {
-    opacity          : 0;
+    opacity: 0;
     -webkit-transform: translateX(-2000px);
   }
 
   60% {
-    opacity          : 1;
+    opacity: 1;
     -webkit-transform: translateX(0px);
   }
 
@@ -477,12 +477,12 @@
 
 @keyframes bounceInLeft {
   0% {
-    opacity  : 0;
+    opacity: 0;
     transform: translateX(-2000px);
   }
 
   60% {
-    opacity  : 1;
+    opacity: 1;
     transform: translateX(0px);
   }
 
@@ -497,122 +497,122 @@
 
 .w3-button {
   background-color: transparent;
-  border          : none;
-  color           : white;
-  font-size       : 1.6rem;
-  font-weight     : 100;
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 100;
 }
 
 .w3-display-left {
-  position     : absolute;
-  top          : 50%;
-  left         : 1%;
-  transform    : translate(0%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translate(0%, -50%);
   -ms-transform: translate(-0%, -50%)
 }
 
 .w3-display-right {
-  position     : absolute;
-  top          : 50%;
-  right        : 1%;
-  transform    : translate(0%, -50%);
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%)
 }
 
 /* Badge */
 .w3-badge {
   background-color: #000;
-  color           : #fff;
-  display         : inline-block;
-  padding-left    : 8px;
-  padding-right   : 8px;
-  text-align      : center
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center
 }
 
 .w3-badge {
-  cursor       : pointer;
+  cursor: pointer;
   border-radius: 50%;
-  height       : 13px;
-  width        : 13px;
-  padding      : 0;
+  height: 13px;
+  width: 13px;
+  padding: 0;
 }
 
 .demo-1 {
-  position     : absolute;
-  top          : 96%;
-  left         : 48%;
-  transform    : translate(0%, -48%);
+  position: absolute;
+  top: 96%;
+  left: 48%;
+  transform: translate(0%, -48%);
   -ms-transform: translate(0%, -48%);
 }
 
 .demo-2 {
-  position     : absolute;
-  top          : 96%;
-  left         : 50%;
-  transform    : translate(0%, -50%);
+  position: absolute;
+  top: 96%;
+  left: 50%;
+  transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
 }
 
 .demo-3 {
-  position     : absolute;
-  top          : 96%;
-  left         : 52%;
-  transform    : translate(0%, -52%);
+  position: absolute;
+  top: 96%;
+  left: 52%;
+  transform: translate(0%, -52%);
   -ms-transform: translate(0%, -52%);
 }
 
 @media only screen and (max-width: 1200px) {
   .demo-1 {
-    left         : 47%;
-    transform    : translate(0%, -47%);
+    left: 47%;
+    transform: translate(0%, -47%);
     -ms-transform: translate(0%, -47%);
   }
 
   .demo-3 {
-    left         : 53%;
-    transform    : translate(0%, -53%);
+    left: 53%;
+    transform: translate(0%, -53%);
     -ms-transform: translate(0%, -53%);
   }
 }
 
 @media only screen and (max-width: 900px) {
   .demo-1 {
-    left         : 46%;
-    transform    : translate(0%, -46%);
+    left: 46%;
+    transform: translate(0%, -46%);
     -ms-transform: translate(0%, -46%);
   }
 
   .demo-3 {
-    left         : 54%;
-    transform    : translate(0%, -54%);
+    left: 54%;
+    transform: translate(0%, -54%);
     -ms-transform: translate(0%, -54%);
   }
 }
 
 @media only screen and (max-width: 600px) {
   .demo-1 {
-    left         : 44%;
-    transform    : translate(0%, -44%);
+    left: 44%;
+    transform: translate(0%, -44%);
     -ms-transform: translate(0%, -44%);
   }
 
   .demo-3 {
-    left         : 56%;
-    transform    : translate(0%, -56%);
+    left: 56%;
+    transform: translate(0%, -56%);
     -ms-transform: translate(0%, -56%);
   }
 }
 
 @media only screen and (max-width: 400px) {
   .demo-1 {
-    left         : 40%;
-    transform    : translate(0%, -40%);
+    left: 40%;
+    transform: translate(0%, -40%);
     -ms-transform: translate(0%, -40%);
   }
 
   .demo-3 {
-    left         : 60%;
-    transform    : translate(0%, -60%);
+    left: 60%;
+    transform: translate(0%, -60%);
     -ms-transform: translate(0%, -60%);
   }
 }
@@ -627,13 +627,13 @@
 }
 
 .w3-hover-white:hover {
-  color           : #000 !important;
+  color: #000 !important;
   background-color: #fff !important
 }
 
 .w3-white,
 .w3-hover-white:hover {
-  color           : #000 !important;
+  color: #000 !important;
   background-color: #fff !important
 }
 
@@ -676,10 +676,10 @@
 }
 
 .nav-item::after {
-  content   : '';
-  display   : block;
-  width     : 0;
-  height    : 2px;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
   background: black;
 
   transition: width .3s;
@@ -700,7 +700,7 @@
 .container-xl,
 .container-xxl {
   padding-right: var(--bs-gutter-x, 0rem) !important;
-  padding-left : var(--bs-gutter-x, 0rem) !important;
+  padding-left: var(--bs-gutter-x, 0rem) !important;
 }
 
 .nav-link {
@@ -728,10 +728,10 @@
 }
 
 .nav-item::after {
-  content   : '';
-  display   : block;
-  width     : 0;
-  height    : 2px;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
   background: black;
 
   transition: width .3s;
@@ -747,40 +747,43 @@
 	transition: width .3s;
 } */
 
- .nav-item:hover::after {
-	width: 100%;
-
-	transition: width .3s;
-}
-.nav-item:active::after{
+.nav-item:hover::after {
   width: 100%;
 
-	transition: width .3s;
+  transition: width .3s;
+}
+
+.nav-item:active::after {
+  width: 100%;
+
+  transition: width .3s;
 }
 
 
 
 
 .black-nav .nav-link {
-	color: white !important;
+  color: white !important;
 }
 
 
-.black-nav .nav-item:hover .nav-link{
-	color: black !important;
+.black-nav .nav-item:hover .nav-link {
+  color: black !important;
 }
+
 .black-nav .nav-link {
-	color: white !important;
+  color: white !important;
 }
 
 
-.black-nav .nav-item:hover .nav-link{
-	color: black !important;
+.black-nav .nav-item:hover .nav-link {
+  color: black !important;
 }
-.navbar-toggler
-{
+
+.navbar-toggler {
   color: black;
-} 
+}
+
 /* .newClass .nav-item::after {
 	content   : '';
 	display   : block;
@@ -792,3 +795,38 @@
 }
  */
 /* NAVBAR END */
+
+/* CONTACT US */
+.contact_us {
+  display: flex;
+  justify-content: space-evenly;
+ 
+
+}
+
+.contact_1 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact_image {
+  height: 50%;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1633113093730-47449a1a9c6e?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1887&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact_details {
+  height: 50%;
+  width: 100%;
+  background-color: #C4C4C4;
+  ;
+}
+
+/* CONTACT US END */
+
