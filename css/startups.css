@@ -177,14 +177,14 @@
 }
 .card-body{
   padding: 0 !important;
-  background-color: black;
+  background-color: black !important;
 }
 
 .card{
   padding: 0 !important;
-  background-color: black;
+  background-color: black !important;
   text-align: center;
 }
 .card h6{
-  display: inline;
+  display: inline !important;
 }
