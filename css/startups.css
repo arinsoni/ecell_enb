@@ -185,3 +185,6 @@
   background-color: black;
   text-align: center;
 }
+.card h6{
+  display: inline;
+}
