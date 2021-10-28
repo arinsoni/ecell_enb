@@ -2,45 +2,60 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="initial-scale=1.0" />
-  <title>Startup Portal</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <meta charset="UTF-8">
 
-  <link href="css/startups.css" rel="stylesheet" />
-  <link href="css/body.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/initiative.css">
+  <link rel="stylesheet" href="css/index_style.css">
+  <link rel="stylesheet" href="css/resources_style.css">
+
+
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css'>
+
+
+
+
+
 </head>
+<style>
+  .startup-body{
+    display: flex;
+    flex-wrap: wrap;
+    float: inline-start;
 
-<body id="body">
-  <!-- Nav-Bar -->
-
-
-  <nav class="navbar sticky-top navbar-expand-lg ">
-    <div class="container ">
-      <!-- ENB LOGO -->
+  }
+  .card{
+    padding: 10px !important;
+    width: 20rem !important;
+    float: left !important;
+    margin-left: 0 !important;
+   
+  }
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+    <div class="container-fluid">
       <a class="enb_logo" href="index.html"><img class="img-fluid" src="assets/enb-logo 1.png" alt=""></a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  mr-auto w-100 justify-content-end">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link " href="initiatives.html">INITIATIVES</a>
+          <li class="nav-item">
+            <a class="nav-link" href="startups.html">OUR STARTUPS</a>
           <li class="nav-item active">
-            <a class="nav-link " href="index.html">Home </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="initiatives.html">INITIATIVES</a>
-          <li class="nav-item">
-            <a class="nav-link current" href="startups.html">OUR STARTUPS</a>
-          <li class="nav-item">
             <a class="nav-link" href="resources.html">RESOURCES</a>
           <li class="nav-item">
             <a class="nav-link" href="#">CONTACT</a>
@@ -49,129 +64,449 @@
       </div>
     </div>
   </nav>
+  <br>
+  <section class="landing_heading text-center">
+    <div class="title">
+      <h1 class="text-capitalize">Welcome to EnB</h1>
 
-  <div class="startup_body">
-    <div class="row" id="cards" style="padding: 20px;"></div>
+      <h1 style="display: inline !important;">RESOURCES</h1>
+      <br><br>
+      <h6> Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Sit obcaecati eum vel ipsam voluptatem
+        sint,
+      </h6>
+      <br>
 
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-keyboard="true" tabindex="-1" aria-labelledby="startup-name-1"
-      aria-hidden="true">
-      <div class="
-          modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered
-        ">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="startup-name-1">Startup Name</h5>
+    </div>
+  </section>
+
+  
+  <div id="search-results" style="display: flex;">
+    <div class="col-md-3">
+      <div class="startup startup-warning">
+        <div class="startup-body">
+          <div class="search-filter">
+            <ul class="list-group">
+              <li class="list-group-item text-center">
+                <label>Tour contains</label>
+                <input class="search form-control" placeholder="Search" />
+              </li>
+              <li class="list-group-item">
+                <div class="list-group-item-heading">
+                  <h4>Filter Options</h4>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="nameContainer">
+                  <h5 class="list-group-item-heading">Stage</h5>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="typeContainer">
+                  <h5 class="list-group-item-heading">Sector</h5>
+                </div>
+              </li>
+
+             
+            </ul>
           </div>
-          <div class="modal-body text-center">
-            <h5 class="card-title" id="startup-name-2">Startup Name</h5>
-            <h6 class="mb-2 text-muted" id="founder">Founder: Founder Name</h6>
-            <p class="w-75 m-auto" id="description">
-              EACAD is the premier ed-tech, training and skill development
-              organization started with a vision to bring world-class, most
-              innovative training content for aspirants of competitive exams
-              like UPSC, MPSC, SSC, State Board Exams, Railways, GATE, JEE,
-              NEET, NDA, CET, OLYMPIAD, etc. to everyone's doorsteps. OUR MOTO -
-              SMARTER INDIA VISION: TO CREATE SMARTER INDIA. At EACAD, we are
-              trying to build our content smarter at more affordable rates than
-              anyone in the market. MISSION: 1. To innovate and bring the best
-              content to our students by way of Animations, Simulations and best
-              visual effects to learn and remember things for a longer time. 2.
-              To make learning enjoyable. 3. To build students' basics knowledge
-              strong at a tender age so that they will stand out from the
-              regular crowd. 4. To teach the basics of Coding, Animations,
-              Simulations to the inquisitive students so that they will excel in
-              their future endeavour 5. To provide Free UPSC and GATE content to
-              best and needy 20 students each year. 6.To reach out to every
-              needy student at a very affordable rate.
-            </p>
-            <div class="card-footer mt-2" id="stage">Stage: Established</div>
-            <div class="card-footer" id="sector">Sector: Ed-Tech</div>
-            <div class="card-footer">
-              Social Media: &ensp;
-              <a href="" target="_blank" class="fa fa-facebook" id="link"></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-9">
+      <div class="startup startup-primary">
+        <div class="list startup-body">
+
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Establsiged</h5>
+              <p class="card-text type">Ed-Tech</p>
+
+              <p class="type hidden">first</p>
             </div>
           </div>
 
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-              Close
-            </button>
+
+
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
+
+
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Establsiged</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Sports/p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Sports</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Sports</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Sports</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Research</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Research</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Research</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Ed-Tech</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title name">Scaling</h5>
+              <p class="card-text type">Sports</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+
         </div>
+        <ul class="pagination"></ul>
       </div>
     </div>
   </div>
-  <footer id="footer" class="sm-padding" style="background-color:black">
+  <script
+    src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
 
-    <!-- Container -->
-    <div class="container">
-
-
-      <div class="row">
-
-        <div class="col-md-12">
-
-
-          <footer>
-           
-            <div class="media row justify-content-center">
-
-
-
-
-              <a class="fa-stack fa-1x" href="#">
-                <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                <i class="icon fa fa-facebook-f fa-stack-1x fa-inverse"></i>
-              </a>
-
-              <a class="fa-stack fa-1x" href="#" target="_blank">
-                <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                <i class="icon fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </a>
-
-              <a class="fa-stack fa-1x" href="#" target="_blank">
-                <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                <i class="icon fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </a>
-
-            
-              <a class="fa-stack fa-1x" href="#" target="_blank">
-                <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                <i class="icon fa fa-instagram fa-stack-1x fa-inverse"></i>
-              </a>
-            
-            </div>
-         
-          </footer>
-
-          <div class="text-center footer_text">
-            <h4>The Enterpreneurship and Business Club</h4>
-            <h4>IIT BOMBAY</h4>
-            <p><a href="#">E-cell</a> |
-              <a href="#">E-Summit</a> |
-              <a href="#">Eureka </a>|
-              <a href="#">Team </a>|
-              <a href="#">SSP</a>
-            </p>
-          </div>
-       
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.min.js'></script>
+  <script id="rendered-js">
+    var options = {
+      valueNames: ['name', 'type'],
+      page: 12,
+      plugins: [
+        ListPagination({})]
+    };
 
 
-        </div>
+    var userList = new List('search-results', options);
+    var updateList = function () {
+      var name = new Array();
+      var type = new Array();
 
-      </div>
+      $("input:checkbox[name=name]:checked").each(function () {
+        name.push($(this).val());
+      });
+
+      $("input:checkbox[name=type]:checked").each(function () {
+        if ($(this).val().indexOf('|') > 0) {
+          var arr = $(this).val().split('|');
+          var arrayLength = arr.length;
+          type = type.concat(arr);
+          console.log('Multiple values:' + arr);
+        } else {
+          type.push($(this).val());
+          console.log('Single values:' + arr);
+        }
+      });
 
 
-    </div>
+      var values_type = type.length > 0 ? type : null;
+      var values_name = name.length > 0 ? name : null;
+
+      userList.filter(function (item) {
+        var typeTest;
+        var nameTest;
 
 
-  </footer>
+        if (item.values().type.indexOf('|') > 0) {
+          var typeArr = item.values().type.split('|');
+          for (var i = 0; i < typeArr.length; i++) {
+            if (window.CP.shouldStopExecution(0)) break;
+            if (_(values_type).contains(typeArr[i])) {
+              typeTest = true;
+            }
+          } window.CP.exitedLoop(0);
+        }
 
-  <script src="js/startups.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+        return (_(values_type).contains(item.values().type) || !values_type || typeTest) && (
+          _(values_name).contains(item.values().name) || !values_name)
+      });
+    };
+
+    userList.on("updated", function () {
+      $('.sort').each(function () {
+        if ($(this).hasClass("asc")) {
+          $(this).find(".fa").addClass("fa-sort-alpha-asc").removeClass("fa-sort-alpha-desc").show();
+        } else if ($(this).hasClass("desc")) {
+          $(this).find(".fa").addClass("fa-sort-alpha-desc").removeClass("fa-sort-alpha-asc").show();
+        } else {
+          $(this).find(".fa").hide();
+        }
+      });
+    });
+
+    var all_type = [];
+    var all_name = [];
+    var all_difficulty = [];
+
+    updateList();
+
+    _(userList.items).each(function (item) {
+      if (item.values().type.indexOf('|') > 0) {
+        var arr = item.values().type.split('|');
+        all_type = all_type.concat(arr);
+      } else {
+        all_type.push(item.values().type);
+      }
+
+      all_name.push(item.values().name);
+
+    });
+
+    _(all_type).uniq().each(function (item) {
+      $(".typeContainer").append('<label><input type="checkbox" name="type" value="' + item + '">' + item + '</label><br>');
+    });
+
+    _(all_name).uniq().each(function (item) {
+      $(".nameContainer").append('<label><input type="checkbox" name="name" value="' + item + '">' + item + '</label><br>');
+    });
+
+
+
+    $(document).off("change", "input:checkbox[name=type]");
+    $(document).on("change", "input:checkbox[name=type]", updateList);
+    $(document).off("change", "input:checkbox[name=name]");
+    $(document).on("change", "input:checkbox[name=name]", updateList);
+
+//# sourceURL=pen.js
+  </script>
+
+
+
 </body>
 
 </html>
