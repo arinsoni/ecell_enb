@@ -212,18 +212,28 @@ div.active_2 {
 /* BOOKS */
 #content_3 {
   display: flex;
-  margin: 10px 0;
-  flex-direction: column;
-  height: 400px;
-  overflow: hidden;
-  gap: 0;
-width: 10% !important;
-  word-break: break-all;
-  justify-content: center !important;
+ margin: 10px 0;
+ flex-direction: column;
+ height: 300px;
 
+ overflow: hidden;
+ 
+ width: 210px !important;
+ word-break: break-all;
+ justify-content: center !important;
+ flex: 1 0 21%; /* explanation below */
+ margin: 5px;
+ padding: 50px;
+ padding-bottom:  0 !important;
+ padding-top: 0 !important;
 
 }
-
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+flex-wrap: wrap;
+}
 
 .panel_2 {
   background-position: center;
