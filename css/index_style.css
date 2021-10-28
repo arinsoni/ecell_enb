@@ -105,7 +105,7 @@
 #parallax-world-of-ugg .block {
   background: white;
   padding: 60px;
-  width: 820px;
+  
 
   text-align: justify;
 }
@@ -830,3 +830,8 @@
 
 /* CONTACT US END */
 
+#about_us p{
+  line-height: 2 !important;
+  word-spacing: 5px;
+  font-size: 1.2rem;
+}
