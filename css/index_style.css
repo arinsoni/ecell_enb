@@ -105,7 +105,7 @@
 #parallax-world-of-ugg .block {
   background: white;
   padding: 60px;
-  
+
 
   text-align: justify;
 }
@@ -800,12 +800,14 @@
 .contact_us {
   display: flex;
   justify-content: space-evenly;
- 
+
+
 
 }
 
 .contact_1 {
   display: flex;
+
   flex-direction: column;
   height: 400px;
   width: 300px;
@@ -824,13 +826,23 @@
 .contact_details {
   height: 50%;
   width: 100%;
-  background-color: #C4C4C4;
+  color: white;
+  background-color: black;
   ;
+}
+
+.contact_details a {
+  text-decoration: none;
+  color: white;
+}
+.contact_details a:hover {
+  
+  color: coral;
 }
 
 /* CONTACT US END */
 
-#about_us p{
+#about_us p {
   line-height: 2 !important;
   word-spacing: 5px;
   font-size: 1.2rem;
