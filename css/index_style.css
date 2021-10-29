@@ -977,48 +977,7 @@ html {
 /* CONTACT US END */
 
 /* FOOTER */
-.icons:hover {
-  color: coral
-}
 
-.page_footer {
-  background-color: #000 !important;
-}
-
-.footer_text {
-  color: white;
-  letter-spacing: 3px;
-}
-
-.footer_text p {
-  cursor: default;
-}
-
-.footer_text a:hover {
-  color: coral
-}
-
-.footer_text {
-  font-size: larger;
-  line-height: 0.7;
-}
-
-.footer_text a {
-  text-decoration: none;
-  color: white;
-}
-
-.media {
-  padding-top: 10px;
-}
-
-.icon-background {
-  color: white;
-}
-
-.media .icon {
-  color: black;
-}
 
 /* FOOTER END */
 
@@ -1045,9 +1004,7 @@ html {
 
   }
 
-  .footer_text {
-    line-height: 1.3rem !important;
-  }
+  
 
   .inner{
     min-height: 300px;
@@ -1080,9 +1037,7 @@ html {
 
   }
 
-  .footer_text {
-    line-height: 1.3rem !important;
-  }
+  
   .inner{
     min-height: 500px;
     

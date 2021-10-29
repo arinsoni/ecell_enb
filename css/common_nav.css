@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -31,16 +31,17 @@ html{
 }
 
 @media only screen and (max-width: 600px) {
-	.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  padding-right: var(--bs-gutter-x, 0rem) !important;
-  padding-left : var(--bs-gutter-x, 0rem) !important;
-}
+
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: var(--bs-gutter-x, 0rem) !important;
+    padding-left: var(--bs-gutter-x, 0rem) !important;
+  }
 
   .fa-bars {
     color: white !important;
@@ -52,7 +53,7 @@ html{
   }
 
   .nav-link {
-    
+
     color: white !important;
   }
 }
@@ -92,10 +93,10 @@ html{
 }
 
 .nav-item::after {
-  content   : '';
-  display   : block;
-  width     : 0;
-  height    : 2px;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
   background: black;
 
   transition: width .3s;
@@ -106,7 +107,8 @@ html{
   width: 100%;
   transition: width .3s;
 }
-.nav-item:active::after { 
+
+.nav-item:active::after {
   width: 100%;
   transition: width .3s;
 }
@@ -119,36 +121,35 @@ html{
 .container-xl,
 .container-xxl {
   padding-right: var(--bs-gutter-x, 0rem) !important;
-  padding-left : var(--bs-gutter-x, 0rem) !important;
+  padding-left: var(--bs-gutter-x, 0rem) !important;
 }
 
 .nav-link {
   padding: 2rem 2rem !important;
 }
 
-.active{
+.active {
 
 
   text-decoration: none;
-	background-color: lightblue;
+  background-color: lightblue;
 
- 
+
 }
-.active .nav-link{
-	color: black !important;
+
+.active .nav-link {
+  color: black !important;
 }
 
 /* FOOTER */
 .icons:hover {
   color: coral
 }
-.page_footer{
-  background-color: #000 !important; 
+
+.page_footer {
+  background-color: #000 !important;
 }
-.footer_text {
-  color: white;
-  letter-spacing: 3px;
-}
+
 
 .footer_text p {
   cursor: default;
@@ -158,24 +159,25 @@ html{
   color: coral
 }
 
-.footer_text {
-  font-size: larger;
-  line-height: 0.7;
-}
+
 
 .footer_text a {
   text-decoration: none;
   color: white;
 }
-.media{
+
+.media {
   padding-top: 10px;
 }
-.icon-background{
+
+.icon-background {
   color: white;
 }
-.media .icon{
-color: black;
+
+.media .icon {
+  color: black;
 }
+
 /* FOOTER END */
 
 
@@ -210,35 +212,37 @@ color: black;
 /* NAVBAR END */
 
 .nav-link {
-	padding: 2rem 2rem !important;
+  padding: 2rem 2rem !important;
 }
 
 .nav-item:hover {
-	background-color: lightblue;
-	
-	border-bottom   : 1rem black;
+  background-color: lightblue;
+
+  border-bottom: 1rem black;
 }
+
 .nav-item:hover .nav-link {
-color: black !important;
+  color: black !important;
 }
 
 
 .nav-item {
-	display: inline-block;
+  display: inline-block;
 
-	text-decoration: none;
+  text-decoration: none;
 
 }
 
 .nav-item::after {
-	content   : '';
-	display   : block;
-	width     : 0;
-	height    : 2px;
-	background: black;
-	
-	transition: width .3s;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+
+  transition: width .3s;
 }
+
 /* .newClass::after {
 	content   : '';
 	display   : block;
@@ -250,9 +254,9 @@ color: black !important;
 } */
 
 .nav-item:hover::after {
-	width: 100%;
+  width: 100%;
 
-	transition: width .3s;
+  transition: width .3s;
 }
 
 .container,
@@ -262,23 +266,25 @@ color: black !important;
 .container-sm,
 .container-xl,
 .container-xxl {
-	padding-right: var(--bs-gutter-x, 0rem) !important;
-	padding-left : var(--bs-gutter-x, 0rem) !important;
+  padding-right: var(--bs-gutter-x, 0rem) !important;
+  padding-left: var(--bs-gutter-x, 0rem) !important;
 }
 
 
 .black-nav .nav-link {
-	color: white !important;
+  color: white !important;
 }
 
 
-.black-nav .nav-item:hover .nav-link{
-	color: black !important;
+.black-nav .nav-item:hover .nav-link {
+  color: black !important;
 }
-.navbar{
+
+.navbar {
   background-color: black;
 }
-.nav-link{
+
+.nav-link {
   color: white !important;
 }
 
@@ -287,12 +293,14 @@ color: black !important;
 .icons:hover {
   color: coral
 }
-.page_footer{
-  background-color: #000 !important; 
+
+.page_footer {
+  background-color: #000 !important;
 }
+
 .footer_text {
   color: white;
-  letter-spacing: 3px;
+ 
 }
 
 .footer_text p {
@@ -303,22 +311,28 @@ color: black !important;
   color: coral
 }
 
-.footer_text {
-  font-size: larger;
-  line-height: 0.7;
-}
 
 .footer_text a {
   text-decoration: none;
   color: white;
 }
-.media{
+
+.media {
   padding-top: 10px;
 }
-.icon-background{
+
+.icon-background {
   color: white;
 }
-.media .icon{
-color: black;
+
+.media .icon {
+  color: black;
 }
+
 /* FOOTER END */
+
+/* LAPTop */
+.footer_text {
+  line-height: 1.3rem !important;
+  letter-spacing: 3px !important;
+}

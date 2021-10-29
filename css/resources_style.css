@@ -1,9 +1,3 @@
-body {
-  caret-color: transparent !important;
-  overflow-x: hidden;
-
-}
-
 @media only screen and (max-width: 600px) {
 
   .landing_heading h1,
@@ -33,7 +27,10 @@ body {
   justify-content: center !important;
 
 }
-
+.media{
+  padding-bottom: 10px;
+  
+}
 .inpage_link {
   height: 50px !important;
   width: 200px !important;
@@ -212,27 +209,29 @@ div.active_2 {
 /* BOOKS */
 #content_3 {
   display: flex;
- margin: 10px 0;
- flex-direction: column;
- height: 300px;
+  margin: 10px 0;
+  flex-direction: column;
+  height: 300px;
 
- overflow: hidden;
- 
- width: 210px !important;
- word-break: break-all;
- justify-content: center !important;
- flex: 1 0 21%; /* explanation below */
- margin: 5px;
- padding: 50px;
- padding-bottom:  0 !important;
- padding-top: 0 !important;
+  overflow: hidden;
+
+  width: 210px !important;
+  word-break: break-all;
+  justify-content: center !important;
+  flex: 1 0 21%;
+  /* explanation below */
+  margin: 5px;
+  padding: 50px;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
 
 }
-.row{
+
+.row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .panel_2 {
@@ -244,4 +243,5 @@ flex-wrap: wrap;
   justify-content: center !important;
   position: relative;
 }
+
 /* BOOKS */
