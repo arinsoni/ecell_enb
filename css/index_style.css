@@ -4,7 +4,9 @@
 
 /* Override UGG site */
 
-
+body{
+  overflow-x: hidden !important;
+}
 #main {
   width: 100%;
   padding: 0;
@@ -784,16 +786,208 @@
   color: black;
 }
 
-/* .newClass .nav-item::after {
-	content   : '';
-	display   : block;
-	width     : 0;
-	height    : 2px;
-	background: black !important;
-	
-	transition: width .3s;
+html {
+  scroll-behavior: smooth;
 }
- */
+
+.navbar .nav-link {
+  font-size: 16px;
+  margin-left: 10px;
+  color: #000;
+
+}
+
+.navbar {
+  z-index: 1000;
+  width: 100%;
+  transition: all ease 0.3s;
+
+
+
+}
+
+.hide {
+  transform: translateY(-81px);
+}
+
+
+
+.fa-bars {
+  color: white;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: var(--bs-gutter-x, 0rem) !important;
+    padding-left: var(--bs-gutter-x, 0rem) !important;
+  }
+
+  .fa-bars {
+    color: white !important;
+    font-size: 30px;
+  }
+
+  .navbar {
+    background-color: black !important;
+  }
+
+  .nav-link {
+
+    color: white !important;
+  }
+}
+
+
+
+
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-nav a:hover {
+    background-color: transparent !important;
+  }
+}
+
+/* FOR ACTIVE TAB */
+.nav-link {
+  padding: 2rem 2rem !important;
+}
+
+.nav-item:hover {
+  background-color: lightblue;
+  border-bottom: 1rem black;
+}
+
+
+
+.nav-item {
+  display: inline-block;
+
+  text-decoration: none;
+
+}
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+
+  transition: width .3s;
+}
+
+
+.nav-item:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+.nav-item:active::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  padding-right: var(--bs-gutter-x, 0rem) !important;
+  padding-left: var(--bs-gutter-x, 0rem) !important;
+}
+
+.nav-link {
+  padding: 2rem 2rem !important;
+}
+
+.active {
+
+
+  text-decoration: none;
+  background-color: lightblue;
+
+
+}
+
+.active .nav-link {
+  color: black !important;
+}
+
+
+
+/* Phone */
+@media only screen and (max-width: 600px) {
+  .contact_1 {
+    display: flex;
+
+    flex-direction: column;
+    height: 200px;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .contact_details {
+    height: 55%;
+    width: 100%;
+    color: white;
+    font-size: 10px;
+    background-color: black;
+    
+  }
+ .footer_text{
+   line-height: 1.3rem !important;
+ }
+}
+
+/* Laptop */
+@media only screen and (min-width: 600px) {
+  #about_us p {
+    line-height: 2 !important;
+    word-spacing: 5px;
+    font-size: 1.2rem;
+  }
+
+  .contact_1 {
+    display: flex;
+
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .contact_details {
+    height: 55%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+
+  }
+}
+
+
+
+
+
+
+
+
 /* NAVBAR END */
 
 /* CONTACT US */
@@ -805,14 +999,7 @@
 
 }
 
-.contact_1 {
-  display: flex;
 
-  flex-direction: column;
-  height: 400px;
-  width: 300px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 .contact_image {
   height: 50%;
@@ -823,27 +1010,56 @@
   background-size: cover;
 }
 
-.contact_details {
-  height: 55%;
- width: 100%;
-  color: white;
-  background-color: black;
-  ;
-}
+
 
 .contact_details a {
   text-decoration: none;
   color: white;
 }
+
 .contact_details a:hover {
-  
+
   color: coral;
 }
 
 /* CONTACT US END */
 
-#about_us p {
-  line-height: 2 !important;
-  word-spacing: 5px;
-  font-size: 1.2rem;
+/* FOOTER */
+.icons:hover {
+  color: coral
 }
+.page_footer{
+  background-color: #000 !important; 
+}
+.footer_text {
+  color: white;
+  letter-spacing: 3px;
+}
+
+.footer_text p {
+  cursor: default;
+}
+
+.footer_text a:hover {
+  color: coral
+}
+
+.footer_text {
+  font-size: larger;
+  line-height: 0.7;
+}
+
+.footer_text a {
+  text-decoration: none;
+  color: white;
+}
+.media{
+  padding-top: 10px;
+}
+.icon-background{
+  color: white;
+}
+.media .icon{
+color: black;
+}
+/* FOOTER END */

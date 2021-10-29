@@ -14,7 +14,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
   <!-- STYLES -->
-  <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/index_style.css">
   <!-- STYLES END -->
 
@@ -219,21 +218,21 @@
       <div class="contact_image"></div>
       <div class="contact_details">
         <br>
-        <h2 class="text-center">Prateek Chauhan</h2>
-        <br>
-        <h4 class="text-center" style="font-weight: 400; line-height: 1.5;">Events and PR Head <br> <a
-            href="prateekchauhan@ecell.in">prateekchauhan@ecell.in</a> <br>  <a href="#"> 8287631602</a> </h4>
+        <p class="text-center">Prateek Chauhan</p>
+     
+        <p class="text-center" style="font-weight: 400; line-height: 1.5;">Events and PR Head <br> <a
+            href="prateekchauhan@ecell.in">prateekchauhan@ecell.in</a> <br>  <a href="#"> 8287631602</a> </p>
       </div>
     </div>
     <div class="contact_1">
       <div class="contact_image"></div>
       <div class="contact_details">
         <br>
-        <h2 class="text-center">Prateek Chauhan</h2>
-        <br>
-        <h4 class="text-center" style="font-weight: 400; line-height: 1.5;">Events and PR Head <br>
+        <p class="text-center">Prateek Chauhan</p>
+        
+        <p class="text-center" style="font-weight: 400; line-height: 1.5;">Events and PR Head <br>
           <a href="prateekchauhan@ecell.in">prateekchauhan@ecell.in</a> <a href="#"> 8287631602</a> 
-        </h4>
+        </p>
       </div>
     </div>
 
@@ -287,8 +286,8 @@
           </footer>
 
           <div class="text-center footer_text">
-            <h4>The Enterpreneurship and Business Club</h4>
-            <h4>IIT BOMBAY</h4>
+            <p>The Enterpreneurship and Business Club</p>
+            <p>IIT BOMBAY</p>
             <p><a href="#">E-cell</a> |
               <a href="#">E-Summit</a> |
               <a href="#">Eureka </a>|
@@ -324,125 +323,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
-  <!-- JS FILES -->
-  <script src="js/home.js"></script>
-  <!-- JS FILES END -->
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
-    -->
+ 
+  
   <script
     src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
-  <script id="rendered-js">
-    var slideIndex = 1;
-    showDivs(slideIndex);
-
-    var slideIndex = 0;
-
-    var myVar;
-
-    carousel();
-
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
-
-    function currentDiv(n) {
-      showDivs(slideIndex = n);
-    }
-
-    function myFunction() {
-      myVar = setTimeout(carousel, 100000000000000);
-    }
-
-    function myStopFunction() {
-      clearTimeout(myVar);
-    }
-
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      if (n > x.length) { slideIndex = 1; }
-      if (n < 1) { slideIndex = x.length; }
-      for (i = 0; i < x.length; i++) {
-        if (window.CP.shouldStopExecution(0)) break;
-        x[i].style.display = "none";
-      } window.CP.exitedLoop(0);
-      for (i = 0; i < dots.length; i++) {
-        if (window.CP.shouldStopExecution(1)) break;
-        dots[i].className = dots[i].className.replace(" w3-white", "");
-      } window.CP.exitedLoop(1);
-      x[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " w3-white";
-
-      myStopFunction();
-      myFunction();
-    }
-
-    function carousel() {
-      var dots = document.getElementsByClassName("demo");
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        if (window.CP.shouldStopExecution(2)) break;
-        x[i].style.display = "none";
-      } window.CP.exitedLoop(2);
-
-      slideIndex++;
-      if (slideIndex > x.length) { slideIndex = 1; }
-      x[slideIndex - 1].style.display = "block";
-
-      for (i = 0; i < dots.length; i++) {
-        if (window.CP.shouldStopExecution(3)) break;
-        dots[i].className = dots[i].className.replace(" w3-white", "");
-      } window.CP.exitedLoop(3);
-
-      dots[slideIndex - 1].className += " w3-white";
-
-      myStopFunction();
-      myFunction();
-
-
-    }
-
-  </script>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-  <script id="rendered-js">
-    $(document).ready(function () {
-      $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        if (scroll > 300) {
-          $(".navbar").css("background", "black");
-        } else {
-          $(".navbar").css("background", "white");
-        }
-      });
-    });
-
-  </script>
-  <script id="rendered-js">
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 300) {
-        $('#navbarNav').addClass('black-nav');
-      } else {
-        $('#navbarNav').removeClass('black-nav');
-      }
-    });
-
-  </script>
-
-  <!--  <script id="rendered-js">
-    $(window).scroll(function(){
-      if ($(this).scrollTop() > 300) {
-         $('#navitem').addClass('newClass');
-      } else {
-         $('#navitem').removeClass('newClass');
-      }
-  });
-
-  </script> -->
+ 
+<script src="js/index.js"></script>
 
 </body>
 
