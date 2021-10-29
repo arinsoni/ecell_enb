@@ -4,9 +4,10 @@
 
 /* Override UGG site */
 
-body{
+body {
   overflow-x: hidden !important;
 }
+
 #main {
   width: 100%;
   padding: 0;
@@ -360,7 +361,7 @@ body{
 
 .inner {
   margin: 0 auto;
-  min-height: 600px;
+
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -979,9 +980,11 @@ html {
 .icons:hover {
   color: coral
 }
-.page_footer{
-  background-color: #000 !important; 
+
+.page_footer {
+  background-color: #000 !important;
 }
+
 .footer_text {
   color: white;
   letter-spacing: 3px;
@@ -1004,15 +1007,19 @@ html {
   text-decoration: none;
   color: white;
 }
-.media{
+
+.media {
   padding-top: 10px;
 }
-.icon-background{
+
+.icon-background {
   color: white;
 }
-.media .icon{
-color: black;
+
+.media .icon {
+  color: black;
 }
+
 /* FOOTER END */
 
 
@@ -1035,11 +1042,16 @@ color: black;
     color: white;
     font-size: 10px;
     background-color: black;
-    
+
   }
- .footer_text{
-   line-height: 1.3rem !important;
- }
+
+  .footer_text {
+    line-height: 1.3rem !important;
+  }
+
+  .inner{
+    min-height: 300px;
+  }
 }
 
 /* Laptop */
@@ -1067,7 +1079,13 @@ color: black;
     background-color: black;
 
   }
-  .footer_text{
+
+  .footer_text {
     line-height: 1.3rem !important;
   }
+  .inner{
+    min-height: 500px;
+    
+  }
 }
+

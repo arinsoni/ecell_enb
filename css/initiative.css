@@ -40,40 +40,7 @@ p {
 
 }
 
-/* PHONE */
-@media only screen and (max-width: 600px) {
-  .card-column {
-    width: 80%;
-    background-color: white;
 
-
-    padding: 4%;
-    box-sizing: border-box;
-  }
-
-  .navbar {
-    width: 450px !important;
-  }
-
-  #footer {
-    width: 450px;
-  }
-
-  
-  .card {
-    width: 80%;
-    margin: 2rem;
-    min-width: 350px !important;
-    margin-bottom: 0.4rem !important;
-
-    position: relative;
-    background: #EB5160;
-
-    cursor: pointer;
-    margin-bottom: 60px;
-  }
-
-}
 
 .column-1 {
   padding-top: 100px;
@@ -266,19 +233,7 @@ p {
 ** Media Queries
 */
 
-@media screen and (max-width: 600px) {
-  .card-column {
-    width: 90%;
-  }
 
-  .column-1 {
-    padding-top: 0px;
-  }
-
-  .open-content img {
-    margin-top: 40px;
-  }
-}
 
 .open-content img {
   height: 60vw !important;
@@ -374,11 +329,50 @@ p {
 /* phone */
 @media only screen and (max-width: 600px) {
   .landing_content {
-    left: 16% !important;
+    left: 3% !important;
     position: relative;
     padding-top: 20px;
    
     text-align: center;
   }
+  .card-column {
+    width: 80% !important;
+  }
+
+  .column-1 {
+    padding-top: 0px;
+  }
+
+  .open-content img {
+    margin-top: 40px;
+  }
   
+  .card-column {
+    width: 80%;
+    background-color: white;
+
+
+    padding: 4%;
+    box-sizing: border-box;
+  }
+
+ 
+
+  #footer {
+    width: 450px;
+  }
+
+  
+  .card {
+    width: 50%;
+    margin: 2rem;
+    min-width: 310px !important;
+    margin-bottom: 0.4rem !important;
+
+    position: relative;
+    background: #EB5160;
+
+    cursor: pointer;
+    margin-bottom: 60px;
+  }
 }
