@@ -13,9 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/nav.css">
-  <link rel="stylesheet" href="css/initiative.css">
-  <link rel="stylesheet" href="css/index_style.css">
+  <link rel="stylesheet" href="css/common_nav.css">
   <link rel="stylesheet" href="css/resources_style.css">
   <!-- STYLES END -->
 
@@ -517,30 +515,7 @@
   <script
     src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js">
     </script>
-  <!-- JS -->
-  <script id="rendered-js">
-    $('.inpage_link').first().addClass('active_2');
-
-    $('.inpage_link').click(function () {
-      var $this = $(this);
-      $siblings = $this.parent().children(),
-        position = $siblings.index($this);
-      console.log(position);
-
-      $('.page').removeClass('active_2').eq(position).addClass('active_2');
-
-      $siblings.removeClass('active_2');
-      $this.addClass('active_2');
-    });
-    //# sourceURL=pen.js
-  </script>
-  
-  <!-- JS -->
-
-
-
-
-
+  <script src="js/resources.js"></script>
 
 </body>
 

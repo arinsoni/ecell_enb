@@ -1,36 +1,84 @@
+body {
+  background-color: white;
+
+}
+
 p {
   line-height: 1.5;
 }
 
 .container {
- 
   margin: 0 auto;
 }
 
 
 /* Cards */
-.card-column {
-  width: 50%;
-  float: left;
-  padding: 4%;
-  box-sizing: border-box;
+
+
+@media only screen and (min-width: 600px) {
+  .card-column {
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    padding: 4%;
+    box-sizing: border-box;
+  }
+
+  .card {
+    width: 100%;
+    margin: 7rem;
+    min-width: 350px !important;
+    margin-bottom: 0.4rem !important;
+
+    position: relative;
+    background: #EB5160;
+
+    cursor: pointer;
+    margin-bottom: 60px;
+  }
+
+}
+
+/* PHONE */
+@media only screen and (max-width: 600px) {
+  .card-column {
+    width: 80%;
+    background-color: white;
+
+
+    padding: 4%;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    width: 450px !important;
+  }
+
+  #footer {
+    width: 450px;
+  }
+
+  
+  .card {
+    width: 80%;
+    margin: 2rem;
+    min-width: 350px !important;
+    margin-bottom: 0.4rem !important;
+
+    position: relative;
+    background: #EB5160;
+
+    cursor: pointer;
+    margin-bottom: 60px;
+  }
+
 }
 
 .column-1 {
   padding-top: 100px;
 }
 
-.card {
-  width: 92%;
-  max-width: 340px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  background: #EB5160;
-  color: #fff;
-  cursor: pointer;
-  margin-bottom: 60px;
-}
 
 .border {
   position: absolute;
@@ -38,9 +86,14 @@ p {
   height: 100%;
   padding: 6px;
   border: 1px solid #fff;
+
   opacity: 0.5;
   left: -6px;
   top: -6px;
+}
+
+.border h1 {
+  color: #222 !important;
 }
 
 .card h1 {
@@ -50,7 +103,7 @@ p {
 }
 
 .card>img {
-  width: 90%;
+  width: 100%;
   position: absolute;
   top: -6%;
   left: -6%;
@@ -86,6 +139,7 @@ p {
   z-index: 110;
   position: absolute;
   opacity: 0;
+  top: 90px;
   pointer-events: none;
 }
 
@@ -182,15 +236,16 @@ p {
   transform: translate3d(20%, -40px, 0px);
   opacity: 0;
 }
-.cover{
+
+.cover {
   position: absolute;
 }
 
 
-.landing_content{
+.landing_content {
   position: absolute;
- 
- 
+
+
 }
 
 .cover {
@@ -225,45 +280,47 @@ p {
   }
 }
 
-.open-content img{
+.open-content img {
   height: 60vw !important;
 }
 
-.card img{
-  height:58% !important;
+.card img {
+  height: 58% !important;
 }
 
 /* NAVBAR */
 .nav-link {
-	padding: 2rem 2rem !important;
+  padding: 2rem 2rem !important;
 }
 
 .nav-item:hover {
-	background-color: lightblue;
-	
-	border-bottom   : 1rem black;
+  background-color: lightblue;
+
+  border-bottom: 1rem black;
 }
+
 .nav-item:hover .nav-link {
-color: black !important;
+  color: black !important;
 }
 
 
 .nav-item {
-	display: inline-block;
+  display: inline-block;
 
-	text-decoration: none;
+  text-decoration: none;
 
 }
 
 .nav-item::after {
-	content   : '';
-	display   : block;
-	width     : 0;
-	height    : 2px;
-	background: black;
-	
-	transition: width .3s;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+
+  transition: width .3s;
 }
+
 /* .newClass::after {
 	content   : '';
 	display   : block;
@@ -275,42 +332,53 @@ color: black !important;
 } */
 
 .nav-item:hover::after {
-	width: 100%;
+  width: 100%;
 
-	transition: width .3s;
+  transition: width .3s;
 }
 
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-	padding-right: var(--bs-gutter-x, 0rem) !important;
-	padding-left : var(--bs-gutter-x, 0rem) !important;
-}
+
 
 
 .black-nav .nav-link {
-	color: white !important;
-}
-
-
-.black-nav .nav-item:hover .nav-link{
-	color: black !important;
-}
-.navbar{
-  background-color: black;
-}
-.nav-link{
   color: white !important;
 }
-/* NAVBAR END */
-/* Landind */
-.landing_content{
-  left: 40%;
+
+
+.black-nav .nav-item:hover .nav-link {
+  color: black !important;
 }
-/* Landind END */
+
+.navbar {
+  background-color: black;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+/* NAVBAR END */
 
 
+/* MEDIAS */
+/* laptop */
+@media only screen and (min-width: 600px) {
+  .landing_content {
+    left: 35%;
+    top: 20%;
+    text-align: center;
+  }
+  
+}
+
+/* phone */
+@media only screen and (max-width: 600px) {
+  .landing_content {
+    left: 16% !important;
+    position: relative;
+    padding-top: 20px;
+   
+    text-align: center;
+  }
+  
+}

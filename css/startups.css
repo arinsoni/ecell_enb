@@ -169,72 +169,119 @@
   background-color: #fff
 }
 
-.card-body img{
+.card-body img {
   width: 100%;
- padding-bottom: 0.2rem;
+  padding-bottom: 0.2rem;
   height: 100%;
   object-fit: cover
 }
-.card-body{
+
+.card-body {
   padding: 0 !important;
   background-color: black !important;
 }
 
-.card{
+.card {
   padding: 0 !important;
   background-color: black !important;
   text-align: center;
 }
-.card h6{
+
+.card h6 {
   display: inline !important;
 }
 
 
 /* POPUP */
-  .popup {
-      margin: 70px auto;
-      padding: 20px;
-      top: 10rem;
-      background: #fff;
-      border-radius: 5px;
-      width: 30%;
-      position: relative;
-    }
-    .popup .close {
-      position: absolute;
-      top: 20px;
-      right: 30px;
-      transition: all 200ms;
-      font-size: 30px;
-      font-weight: bold;
-      text-decoration: none;
-      color: #333;
-    }    
-    .popup-overlay {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: rgba(0, 0, 0, 0.7);
-      transition: opacity 500ms;
-      visibility: hidden;
-      opacity: 0;
-    }
-    .popup-overlay:target {
-      visibility: visible;
-      opacity: 1;
-    }
-    .card{
-      position: inherit !important;
-    }
-  .filters{
-    display: flex;
-    padding-left: 1rem;
-    flex-direction: column !important;
-  }
-  .search-bar{
-width: 20rem;
-margin-left: 40%;
-padding-bottom: 2rem;
-  }
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  top: 10rem;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.popup-overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.card {
+  position: inherit !important;
+}
+
+.filters {
+  display: flex;
+  padding-left: 1rem;
+  flex-direction: column !important;
+}
+
+.search-bar {
+  width: 20rem;
+  margin-left: 40%;
+  padding-bottom: 2rem;
+}
+
+.card {
+  width: 92%;
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: #EB5160;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+
+.card>img {
+  width: 90%;
+  position: absolute;
+  top: -6%;
+  left: -6%;
+}
+
+
+.card img {
+  height: 58% !important;
+}
+
+
+
+ 
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+

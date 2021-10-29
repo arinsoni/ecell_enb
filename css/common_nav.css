@@ -13,6 +13,7 @@ html{
   z-index: 1000;
   width: 100%;
   transition: all ease 0.3s;
+  right: 0 !important;
 
 
 
@@ -207,3 +208,117 @@ color: black;
 }
  */
 /* NAVBAR END */
+
+.nav-link {
+	padding: 2rem 2rem !important;
+}
+
+.nav-item:hover {
+	background-color: lightblue;
+	
+	border-bottom   : 1rem black;
+}
+.nav-item:hover .nav-link {
+color: black !important;
+}
+
+
+.nav-item {
+	display: inline-block;
+
+	text-decoration: none;
+
+}
+
+.nav-item::after {
+	content   : '';
+	display   : block;
+	width     : 0;
+	height    : 2px;
+	background: black;
+	
+	transition: width .3s;
+}
+/* .newClass::after {
+	content   : '';
+	display   : block;
+	width     : 0;
+	height    : 2px;
+	background: white;
+	
+	transition: width .3s;
+} */
+
+.nav-item:hover::after {
+	width: 100%;
+
+	transition: width .3s;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+	padding-right: var(--bs-gutter-x, 0rem) !important;
+	padding-left : var(--bs-gutter-x, 0rem) !important;
+}
+
+
+.black-nav .nav-link {
+	color: white !important;
+}
+
+
+.black-nav .nav-item:hover .nav-link{
+	color: black !important;
+}
+.navbar{
+  background-color: black;
+}
+.nav-link{
+  color: white !important;
+}
+
+
+/* FOOTER */
+.icons:hover {
+  color: coral
+}
+.page_footer{
+  background-color: #000 !important; 
+}
+.footer_text {
+  color: white;
+  letter-spacing: 3px;
+}
+
+.footer_text p {
+  cursor: default;
+}
+
+.footer_text a:hover {
+  color: coral
+}
+
+.footer_text {
+  font-size: larger;
+  line-height: 0.7;
+}
+
+.footer_text a {
+  text-decoration: none;
+  color: white;
+}
+.media{
+  padding-top: 10px;
+}
+.icon-background{
+  color: white;
+}
+.media .icon{
+color: black;
+}
+/* FOOTER END */
