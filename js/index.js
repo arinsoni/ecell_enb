@@ -80,6 +80,16 @@ $(document).ready(function () {
     }
   });
 });
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if (scroll < 0) {
+      $(".navbar").css("background", "white");
+    } else {
+      
+    }
+  });
+});
 
 $(window).scroll(function () {
   if ($(this).scrollTop() > 300) {
@@ -89,3 +99,13 @@ $(window).scroll(function () {
   }
 });
 
+$(function () { 
+  $(window).scroll(function () {
+      if ($(this).scrollTop() < 300) { 
+          $('.enb_logo img').attr('src','assets/enb-logo 1.png');
+      }
+      if ($(this).scrollTop() > 300) { 
+          $('.enb_logo img').attr('src','assets/enb-logo 1.png');
+      }
+  })
+});

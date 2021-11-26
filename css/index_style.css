@@ -774,14 +774,8 @@ body {
   color: black !important;
 }
 
-.black-nav .nav-link {
-  color: white !important;
-}
 
 
-.black-nav .nav-item:hover .nav-link {
-  color: black !important;
-}
 
 .navbar-toggler {
   color: black;
@@ -976,10 +970,7 @@ html {
 
 /* CONTACT US END */
 
-/* FOOTER */
 
-
-/* FOOTER END */
 
 
 /* MEDIAs */

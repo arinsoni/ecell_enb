@@ -274,21 +274,9 @@ html {
 }
 
 
-.black-nav .nav-link {
-  color: white !important;
-}
-
-
-.black-nav .nav-item:hover .nav-link {
-  color: black !important;
-}
 
 .navbar {
   background-color: black;
-}
-
-.nav-link {
-  color: white !important;
 }
 
 
@@ -338,4 +326,9 @@ html {
 .footer_text {
   line-height: 1.3rem !important;
   letter-spacing: 3px !important;
+}
+
+
+.navbar{
+  background-color: white ;
 }
