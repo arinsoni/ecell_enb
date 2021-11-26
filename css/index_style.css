@@ -29,7 +29,7 @@ body {
 /* Typography */
 /**************************/
 #parallax-world-of-ugg h1 {
-  font-family: 'Oswald', sans-serif;
+  
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
@@ -38,7 +38,7 @@ body {
 }
 
 #parallax-world-of-ugg h2 {
-  font-family: 'Oswald', sans-serif;
+  
   font-size: 70px;
   letter-spacing: 10px;
   text-align: center;
@@ -50,7 +50,7 @@ body {
 }
 
 #parallax-world-of-ugg h3 {
-  font-family: 'Oswald', sans-serif;
+  
   font-size: 14px;
   line-height: 0;
   font-weight: 400;
@@ -60,7 +60,7 @@ body {
 }
 
 #parallax-world-of-ugg p {
-  font-family: 'Source Sans Pro', sans-serif;
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -74,7 +74,7 @@ body {
 
   padding-right: 8px;
   padding-left: 3px;
-  font-family: 'Source Sans Pro', sans-serif;
+  
 }
 
 .sc {
@@ -431,7 +431,7 @@ body {
 }
 
 .copy h2 {
-  font-family: 'Arial';
+ 
   font-size: 36px;
   font-weight: bold;
   color: white;
@@ -1035,3 +1035,8 @@ html {
   }
 }
 
+
+/* FONTS */
+.block{
+  font-family: 'M PLUS 1 Code', sans-serif;
+}
