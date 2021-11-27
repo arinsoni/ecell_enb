@@ -69,7 +69,7 @@ function carousel() {
 
 
 }
-
+/* NAVBAR COLOR */
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
@@ -80,17 +80,18 @@ $(document).ready(function () {
     }
   });
 });
+/* HAMBURGER COLOR */
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    if (scroll < 0) {
-      $(".navbar").css("background", "white");
+    if (scroll > 300) {
+      $(".fa-bars").css("color", "white");
     } else {
-      
+      $(".fa-bars").css("color", "rgb(252, 200, 123)");
     }
   });
 });
-
+/* css for >300 navbar */
 $(window).scroll(function () {
   if ($(this).scrollTop() > 300) {
     $('#navbarNav').addClass('black-nav');
@@ -98,7 +99,7 @@ $(window).scroll(function () {
     $('#navbarNav').removeClass('black-nav');
   }
 });
-
+/* logo changer */
 $(function () { 
   $(window).scroll(function () {
       if ($(this).scrollTop() < 300) { 
