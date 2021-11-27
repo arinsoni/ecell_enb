@@ -74,9 +74,9 @@ $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     if (scroll > 300) {
-      $(".navbar").css("background", "black");
+      $(".navbar").css("background", "#171717");
     } else {
-      $(".navbar").css("background", "white");
+      $(".navbar").css("background", "rgb(252, 249, 230)");
     }
   });
 });
@@ -102,7 +102,7 @@ $(window).scroll(function () {
 $(function () { 
   $(window).scroll(function () {
       if ($(this).scrollTop() < 300) { 
-          $('.enb_logo img').attr('src','assets/enb-logo 1.png');
+          $('.enb_logo img').attr('src','assets/logo_black.png');
       }
       if ($(this).scrollTop() > 300) { 
           $('.enb_logo img').attr('src','assets/enb-logo 1.png');

@@ -52,7 +52,7 @@ html {
   }
 
   .navbar {
-    background-color: black !important;
+    background-color: #171717 !important;
   }
 
   .nav-link {
@@ -116,26 +116,18 @@ html {
   transition: width .3s;
 }
 
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  padding-right: var(--bs-gutter-x, 0rem) !important;
-  padding-left: var(--bs-gutter-x, 0rem) !important;
-}
+
 
 .nav-link {
   padding: 2rem 2rem !important;
+  font-family: 'M PLUS 1 Code', sans-serif;
 }
 
 .active {
 
 
   text-decoration: none;
-  background-color: lightblue;
+  background-color: rgb(252, 200, 123);
 
 
 }
@@ -177,9 +169,7 @@ html {
   color: white;
 }
 
-.media .icon {
-  color: black;
-}
+
 
 /* FOOTER END */
 
@@ -215,13 +205,13 @@ html {
 /* NAVBAR END */
 
 .nav-link {
-  padding: 2rem 2rem !important;
+  padding: 1rem 1rem !important;
 }
 
 .nav-item:hover {
-  background-color: lightblue;
+  background-color: rgb(252, 200, 123);
 
-  border-bottom: 1rem black;
+  
 }
 
 .nav-item:hover .nav-link {
@@ -241,20 +231,12 @@ html {
   display: block;
   width: 0;
   height: 2px;
-  background: black;
+  background: #171717;
 
   transition: width .3s;
 }
 
-/* .newClass::after {
-	content   : '';
-	display   : block;
-	width     : 0;
-	height    : 2px;
-	background: white;
-	
-	transition: width .3s;
-} */
+
 
 .nav-item:hover::after {
   width: 100%;
@@ -275,8 +257,9 @@ html {
 
 
 
+
 .navbar {
-  background-color: black;
+  background-color: #171717 !important;
 }
 
 
@@ -296,6 +279,7 @@ html {
 
 .footer_text p {
   cursor: default;
+  font-family: 'M PLUS 1 Code', sans-serif;
 }
 
 .footer_text a:hover {
@@ -316,19 +300,35 @@ html {
   color: white;
 }
 
-.media .icon {
-  color: black;
+
+.icon {
+  color: white;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.7rem;
 }
 
 /* FOOTER END */
 
 /* LAPTop */
 .footer_text {
-  line-height: 1.3rem !important;
+  line-height: 1rem !important;
   letter-spacing: 3px !important;
 }
 
 
+
+
 .navbar{
-  background-color: white ;
+
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0 !important;
+  
+  
+}
+
+.enb_logo img{
+  height: 60px;
+  width: 90px;
 }
