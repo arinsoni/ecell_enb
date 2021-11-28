@@ -1,5 +1,5 @@
 body {
-  background-color: #171717;
+  background-color: rgb(252, 249, 230) !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -18,13 +18,13 @@ body {
 .landing_heading .btn {
   margin-left: 100000px !important;
   background-color: black !important;
-  color: white !important;
+  color: black !important;
 }
 
 .landing_heading {
 
 
-  color: white !important;
+  color: black !important;
 }
 
 /* INPAGE NAVBAR */
@@ -48,7 +48,7 @@ body {
   width: 200px !important;
   border: 2px solid black !important;
   display: flex !important;
-  color: white;
+  color: black;
   justify-content: center !important;
 }
 
@@ -64,7 +64,7 @@ body {
   .inpage_link {
     height: 50px !important;
     width: 100px !important;
-    border: 2px solid black !important;
+    border: 2px solid white !important;
     display: flex !important;
     justify-content: center !important;
   }
@@ -91,14 +91,14 @@ body {
 }
 
 .inpage_link.active_2 {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   border: 2px solid black !important;
 }
 
 .inpage_link:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .content {
@@ -121,7 +121,7 @@ div.active_2 {
 }
 
 .page {
-  color: white !important;
+  color: black !important;
 }
 
 #content_1 {
@@ -264,7 +264,12 @@ div.active_2 {
 /* BOOKS */
 
 
-
-.nav-link {
-  color: white !important;
+/* fonts */
+.landing_heading{
+  font-family: 'M PLUS 1 Code', sans-serif ;
 }
+.inpage_nav{
+  font-family: 'M PLUS 1 Code', sans-serif ;
+}
+
+/* fonts */

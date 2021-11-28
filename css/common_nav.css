@@ -116,10 +116,12 @@ html {
   color: coral
 }
 
-.footer_text p,
-h5 {
+.footer_text p, h3 {
   cursor: default;
-  color: rgb(252, 249, 230) !important;
+  color: rgb(252, 249, 230); 
+}
+.footer_text h3 {
+ padding-top: 15px; 
 }
 
 .footer_text a:hover {

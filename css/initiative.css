@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: rgb(252, 249, 230) !important;
 
 }
 
@@ -18,7 +18,7 @@ p {
 @media only screen and (min-width: 600px) {
   .card-column {
     width: 100%;
-    background-color: white;
+    background-color: rgb(252, 249, 230) !important;
 
     display: flex;
     padding: 4%;
