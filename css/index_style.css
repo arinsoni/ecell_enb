@@ -60,13 +60,13 @@ body {
 @media only screen and (max-width: 600px) {
   .landing_heading p {
     font-size: 30px;
-    line-height: 15px;
+    line-height: 1px !important;
     letter-spacing: 2 !important;
   }
 }
 
 
-/* bog screen */
+/* big screen */
 @media only screen and (min-width: 600px) {
   .landing_heading p {
     font-size: 50px;
@@ -759,8 +759,12 @@ body {
     height: 55%;
     width: 100%;
     color: rgb(252, 249, 230);
-    font-size: 20px;
+   
     background-color: #171717;
+
+  }
+  .card-heading {
+   font-size: 30px;
 
   }
 
@@ -781,6 +785,9 @@ body {
 
 }
 .nav-link{
+  font-family: 'M PLUS 1 Code', sans-serif;
+}
+.contact_details{
   font-family: 'M PLUS 1 Code', sans-serif;
 }
 
@@ -858,7 +865,6 @@ body {
 
 .black-nav .nav-item:hover {
   background-color: rgb(252, 200, 123);
-
   border-bottom: 1rem red;
 }
 

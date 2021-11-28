@@ -22,15 +22,16 @@ html {
 }
 
 .nav-link {
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 10px;
-  color: white;
+  color: white !important;
   padding: 1rem 1rem !important;
- 
+
 }
+
 .enb_logo img {
   height: 60px;
-  width: 90px;
+  width: 150px;
 }
 
 .nav-item {
@@ -51,7 +52,7 @@ html {
   content: '';
   display: block;
   width: 0;
-  height: 2px;
+  height: 1px;
   background: #171717;
   transition: width .3s;
 }
@@ -107,15 +108,18 @@ html {
 }
 
 /* FOOTER */
-#footer{
-  background-color: #171717 !important ;
+#footer {
+  background-color: #171717 !important;
 }
+
 .icon:hover {
   color: coral
 }
-.footer_text p, h5 {
+
+.footer_text p,
+h5 {
   cursor: default;
-  color: rgb(252, 249, 230); 
+  color: rgb(252, 249, 230) !important;
 }
 
 .footer_text a:hover {
@@ -126,15 +130,15 @@ html {
 
 .footer_text a {
   text-decoration: none;
-  color: rgb(252, 249, 230) ;
+  color: rgb(252, 249, 230);
 }
 
 @media only screen and (max-width: 600px) {
   .footer_text {
     line-height: 1rem;
-    letter-spacing: 1px !important ;
+    letter-spacing: 1px !important;
   }
-  
+
 }
 
 .media {
@@ -146,7 +150,7 @@ html {
 }
 
 .icon {
-  color: rgb(252, 249, 230) ;
+  color: rgb(252, 249, 230);
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   font-size: 1.7rem;
@@ -156,11 +160,13 @@ html {
 /* Footer end */
 
 /* FONTS */
-.footer_text p, h5 {
-  font-family: 'M PLUS 1 Code', sans-serif ;
+.footer_text p,
+h5 {
+  font-family: 'M PLUS 1 Code', sans-serif;
 
 }
-.nav-link{
+
+.nav-link {
   font-family: 'M PLUS 1 Code', sans-serif;
 }
 

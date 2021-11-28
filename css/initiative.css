@@ -66,7 +66,7 @@ p {
 .card h1 {
   position: relative;
   padding: 190px 0px 100px 10px;
-  width: 90%;
+  width: 100%;
 }
 
 .card>img {
@@ -209,11 +209,7 @@ p {
 }
 
 
-.landing_content {
-  position: absolute;
 
-
-}
 
 .cover {
   transition: transform 300ms ease-in-out;
@@ -243,87 +239,26 @@ p {
   height: 58% !important;
 }
 
-/* NAVBAR */
-.nav-link {
-  padding: 2rem 2rem !important;
-}
-
-.nav-item:hover {
-  background-color: lightblue;
-
-  border-bottom: 1rem black;
-}
-
-.nav-item:hover .nav-link {
-  color: black !important;
-}
-
-
-.nav-item {
-  display: inline-block;
-
-  text-decoration: none;
-
-}
-
-.nav-item::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: black;
-
-  transition: width .3s;
-}
-
-/* .newClass::after {
-	content   : '';
-	display   : block;
-	width     : 0;
-	height    : 2px;
-	background: white;
-	
-	transition: width .3s;
-} */
-
-.nav-item:hover::after {
-  width: 100%;
-
-  transition: width .3s;
-}
-
-
-
-
-.black-nav .nav-link {
-  color: white !important;
-}
-
-
-.black-nav .nav-item:hover .nav-link {
-  color: black !important;
-}
-
-.navbar {
-  background-color: black;
-}
-
-.nav-link {
-  color: white !important;
-}
-
-/* NAVBAR END */
 
 
 /* MEDIAS */
 /* laptop */
+.landing_content {
+  position: absolute;
+  
+}
+
 @media only screen and (min-width: 600px) {
   .landing_content {
     left: 35%;
-    top: 20%;
+    top: 12%;
+  
     text-align: center;
   }
-  
+
+  .landing_content p {
+    font-size: 50px !important;
+  }
 }
 
 /* phone */
@@ -332,9 +267,14 @@ p {
     left: 3% !important;
     position: relative;
     padding-top: 20px;
-   
+
     text-align: center;
   }
+
+  .landing_content p {
+    font-size: 30px !important;
+  }
+
   .card-column {
     width: 80% !important;
   }
@@ -346,7 +286,7 @@ p {
   .open-content img {
     margin-top: 40px;
   }
-  
+
   .card-column {
     width: 80%;
     background-color: white;
@@ -356,17 +296,16 @@ p {
     box-sizing: border-box;
   }
 
- 
 
-  
 
-  
+
+
+
   .card {
     width: 50%;
     margin: 2rem;
     min-width: 310px !important;
     margin-bottom: 0.4rem !important;
-
     position: relative;
     background: #EB5160;
 
@@ -374,3 +313,14 @@ p {
     margin-bottom: 60px;
   }
 }
+
+/* fonts */
+.landing_content {
+  font-family: 'M PLUS 1 Code', sans-serif;
+}
+.card h1{
+  font-family: 'M PLUS 1 Code', sans-serif;
+
+}
+
+/* fonts */

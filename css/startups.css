@@ -6,13 +6,11 @@
 }
 
 .card {
-  padding: 10px !important;
+
   width: 13rem !important;
   float: left !important;
   margin-left: 0 !important;
-
 }
-
 
 .pagination {
   display: inline-block;
@@ -178,12 +176,12 @@
 
 .card-body {
   padding: 0 !important;
-  background-color: black !important;
+  background-color: #171717 !important;
 }
 
 .card {
   padding: 0 !important;
-  background-color: black !important;
+  background-color: #171717 !important;
   text-align: center;
 }
 
@@ -233,12 +231,6 @@
 }
 
 
-
-
-.card {
-  position: inherit !important;
-}
-
 .filters {
   display: flex;
   padding-left: 1rem;
@@ -261,6 +253,7 @@
   color: #fff;
   cursor: pointer;
   margin-bottom: 60px;
+  position: inherit !important;
 }
 
 
@@ -276,19 +269,31 @@
   height: 58% !important;
 }
 
-
-
- 
-
 .row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+
+}
+
+.filters h4
+ {
+  color: black !important;
+}
+.filters h5
+ {
+  color: black !important;
 }
 
 
-
-.nav-link{
-  color: white !important;
+/* fonts */
+.landing_heading {
+  font-family: 'M PLUS 1 Code', sans-serif;
 }
+.row h4, h5, label{
+  font-family: 'M PLUS 1 Code', sans-serif;
+
+}
+
+/* fonts */
