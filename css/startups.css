@@ -314,28 +314,3 @@ body{
 
 /* fonts */
 
-.input[type="checkbox"]:before {
-  position: relative !important;
-  display: block  !important;
-  width: 11px !important;
-  height: 11px !important;
-  border: 1px solid #808080 !important;
-  content: "" !important;
-  background: #FFF !important;
-}
-
-.input[type="checkbox"]:after {
-  position: relative !important;
-  display: block !important;
-  left: 2px !important;
-  top: -11px !important;
-  width: 7px !important;
-  height: 7px !important;
-  border-width: 1px !important;
-  border-style: solid !important;
-  border-color: #B3B3B3 #dcddde #dcddde #B3B3B3 !important;
-  content: "" !important;
-  background-image: linear-gradient(135deg, #B1B6BE 0%, #FFF 100%) !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
-}
